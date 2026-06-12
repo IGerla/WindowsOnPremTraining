@@ -55,6 +55,7 @@ markdown_extensions:
 
 nav:
   - Willkommen: index.md
+  - Trainingsplan: roadmap.md
   - Trainer-Setup: trainer-setup.md
   - Lernpfad 1 – Grundlagen:
     - Modul 0 – Orientierung: modul-0-orientierung.md
@@ -65,3 +66,11 @@ nav:
     - Modul 5 – DNS: modul-5-dns.md
     - Modul 6 – DHCP: modul-6-dhcp.md
     - Modul 7 – Aufräumen: modul-7-aufräumen.md
+  - Lernpfad 2 – Netzwerk & Infrastruktur:
+    - Modul 8 – Netzwerk-Design: modul-8-netzwerk.md
+    - Modul 9 – Routing: modul-9-routing.md
+    - Modul 10 – Windows-Firewall: modul-10-firewall.md
+    - Modul 11 – Webserver IIS: modul-11-iis.md
+    - Modul 12 – NPS & RADIUS: modul-12-nps.md
+    - Modul 13 – VPN: modul-13-vpn.md
+    - Modul 14 – Aufräumen: modul-14-aufräumen.md

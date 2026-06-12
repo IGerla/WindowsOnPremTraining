@@ -34,6 +34,18 @@ Azubis, Praktikanten und angehende Windows-Admins ohne Server-Erfahrung. Du arbe
 | 6 | DHCP: Scope erstellen, Reservierungen, Optionen |
 | 7 | Aufräumen: Snapshots sichern, VMs stoppen |
 
+### Lernpfad 2 – Netzwerk & Infrastruktur
+
+| Modul | Thema |
+|-------|-------|
+| 8 | Netzwerk-Design: Subnetze, VLANs, virtuelle Switches |
+| 9 | Routing: Windows Server als Router, NAT, Internetanbindung |
+| 10 | Windows-Firewall: Regeln erstellen, Profile, GPO-Integration |
+| 11 | Webserver IIS: Installation, Website hosten, Bindings |
+| 12 | NPS & RADIUS: Netzwerkzugriffskontrolle zentral verwalten |
+| 13 | VPN: Remote-Zugriff mit RRAS einrichten |
+| 14 | Aufräumen: Netzwerk-Dokumentation, Snapshots |
+
 ## Lokal starten
 
 ```bash

@@ -72,4 +72,4 @@ Du hast in diesem Lernpfad:
 
 ---
 
-*Weiter geht's mit Lernpfad 2 – Netzwerk & Infrastruktur (in Vorbereitung)*
+Weiter zu [Modul 8 – Netzwerk-Design](modul-8-netzwerk.md) →
