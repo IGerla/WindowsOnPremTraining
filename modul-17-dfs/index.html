@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://igerla.github.io/WindowsOnPremTraining/modul-12-nps/">
+        <link rel="canonical" href="https://igerla.github.io/WindowsOnPremTraining/modul-17-dfs/">
       
       
-        <link rel="prev" href="../modul-11-iis/">
+        <link rel="prev" href="../modul-16-ntfs/">
       
       
-        <link rel="next" href="../modul-13-vpn/">
+        <link rel="next" href="../modul-18-fsrm/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Modul 12 – NPS & RADIUS - Windows On-Prem Einstiegstraining</title>
+        <title>Modul 17 – DFS - Windows On-Prem Einstiegstraining</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#modul-12-nps-radius" class="md-skip">
+        <a href="#modul-17-dfs-distributed-file-system" class="md-skip">
           Zum Inhalt
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Modul 12 – NPS & RADIUS
+              Modul 17 – DFS
             
           </span>
         </div>
@@ -618,20 +618,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -652,7 +650,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -779,37 +777,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Modul 12 – NPS & RADIUS
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../modul-12-nps/" class="md-nav__link">
         
   
   
@@ -825,148 +796,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Inhaltsverzeichnis
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#lernziele" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Lernziele
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hintergrund-radius-zentraler-netzwerk-tursteher" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Hintergrund: RADIUS – zentraler Netzwerk-Türsteher
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Hintergrund: RADIUS – zentraler Netzwerk-Türsteher">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#typische-einsatzszenarien" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Typische Einsatzszenarien
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#schritt-fur-schritt-nps-installieren" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt für Schritt: NPS installieren
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Schritt für Schritt: NPS installieren">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#schritt-1-nps-rolle-installieren" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 1: NPS-Rolle installieren
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#schritt-2-nps-konsole-offnen" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 2: NPS-Konsole öffnen
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#schritt-3-nps-im-active-directory-registrieren" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 3: NPS im Active Directory registrieren
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#schritt-4-radius-client-hinzufugen" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 4: RADIUS-Client hinzufügen
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#schritt-5-netzwerkrichtlinie-erstellen" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 5: Netzwerkrichtlinie erstellen
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#challenge" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Challenge
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1039,18 +868,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
           <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
@@ -1071,7 +902,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1142,10 +973,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../modul-17-dfs/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modul 17 – DFS
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1161,6 +1019,137 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lernziele" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lernziele
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hintergrund-dfs-ein-pfad-fur-alles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hintergrund: DFS – ein Pfad für alles
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hintergrund: DFS – ein Pfad für alles">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#dfs-namespaces-vs-dfs-replikation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        DFS-Namespaces vs. DFS-Replikation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schritt-fur-schritt-dfs-namespace-einrichten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt für Schritt: DFS-Namespace einrichten
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Schritt für Schritt: DFS-Namespace einrichten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#schritt-1-dfs-rollen-installieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 1: DFS-Rollen installieren
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-2-dfs-namespace-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 2: DFS-Namespace erstellen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-3-ordner-verknupfungen-hinzufugen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 3: Ordner (Verknüpfungen) hinzufügen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-4-vom-client-testen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 4: Vom Client testen
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Challenge
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1295,22 +1284,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#hintergrund-radius-zentraler-netzwerk-tursteher" class="md-nav__link">
+  <a href="#hintergrund-dfs-ein-pfad-fur-alles" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Hintergrund: RADIUS – zentraler Netzwerk-Türsteher
+        Hintergrund: DFS – ein Pfad für alles
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Hintergrund: RADIUS – zentraler Netzwerk-Türsteher">
+    <nav class="md-nav" aria-label="Hintergrund: DFS – ein Pfad für alles">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#typische-einsatzszenarien" class="md-nav__link">
+  <a href="#dfs-namespaces-vs-dfs-replikation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Typische Einsatzszenarien
+        DFS-Namespaces vs. DFS-Replikation
       
     </span>
   </a>
@@ -1323,22 +1312,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#schritt-fur-schritt-nps-installieren" class="md-nav__link">
+  <a href="#schritt-fur-schritt-dfs-namespace-einrichten" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt für Schritt: NPS installieren
+        Schritt für Schritt: DFS-Namespace einrichten
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Schritt für Schritt: NPS installieren">
+    <nav class="md-nav" aria-label="Schritt für Schritt: DFS-Namespace einrichten">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#schritt-1-nps-rolle-installieren" class="md-nav__link">
+  <a href="#schritt-1-dfs-rollen-installieren" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt 1: NPS-Rolle installieren
+        Schritt 1: DFS-Rollen installieren
       
     </span>
   </a>
@@ -1346,10 +1335,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#schritt-2-nps-konsole-offnen" class="md-nav__link">
+  <a href="#schritt-2-dfs-namespace-erstellen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt 2: NPS-Konsole öffnen
+        Schritt 2: DFS-Namespace erstellen
       
     </span>
   </a>
@@ -1357,10 +1346,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#schritt-3-nps-im-active-directory-registrieren" class="md-nav__link">
+  <a href="#schritt-3-ordner-verknupfungen-hinzufugen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt 3: NPS im Active Directory registrieren
+        Schritt 3: Ordner (Verknüpfungen) hinzufügen
       
     </span>
   </a>
@@ -1368,21 +1357,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#schritt-4-radius-client-hinzufugen" class="md-nav__link">
+  <a href="#schritt-4-vom-client-testen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt 4: RADIUS-Client hinzufügen
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#schritt-5-netzwerkrichtlinie-erstellen" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 5: Netzwerkrichtlinie erstellen
+        Schritt 4: Vom Client testen
       
     </span>
   </a>
@@ -1425,72 +1403,89 @@
   
 
 
-<h1 id="modul-12-nps-radius">Modul 12 – NPS &amp; RADIUS</h1>
+<h1 id="modul-17-dfs-distributed-file-system">Modul 17 – DFS (Distributed File System)</h1>
 <h2 id="lernziele">Lernziele</h2>
 <p>Nach diesem Modul kannst du:</p>
 <ul>
-<li>Erklären was RADIUS ist und warum zentrale Authentifizierung wichtig ist</li>
-<li>Den Network Policy Server (NPS) installieren und konfigurieren</li>
-<li>RADIUS-Clients (z.B. Switches, WLAN-APs) registrieren</li>
-<li>Netzwerkrichtlinien erstellen (wer darf was im Netzwerk?)</li>
-<li>Den Zusammenhang zwischen NPS, Active Directory und Netzwerkgeräten erklären</li>
+<li>Erklären was DFS ist und warum es nützlich ist</li>
+<li>Den Unterschied zwischen DFS-Namespaces und DFS-Replikation erklären</li>
+<li>Einen DFS-Namespace erstellen und Freigaben einbinden</li>
+<li>Ordnerziele (Folder Targets) konfigurieren</li>
+<li>Den Zugriff über den einheitlichen DFS-Pfad testen</li>
 </ul>
 <hr />
-<h2 id="hintergrund-radius-zentraler-netzwerk-tursteher">Hintergrund: RADIUS – zentraler Netzwerk-Türsteher</h2>
-<p>Stell dir vor, du hast 20 WLAN-Access-Points und 5 Switches mit Port-Authentifizierung. Jeder soll prüfen, ob ein Benutzer ins Netzwerk darf. Ohne RADIUS müsstest du auf <strong>jedem Gerät einzeln</strong> Benutzerkonten pflegen.</p>
-<p><strong>RADIUS (Remote Authentication Dial-In User Service)</strong> löst das Problem: Alle Netzwerkgeräte fragen einen zentralen Server – den <strong>NPS (Network Policy Server)</strong> – und der prüft gegen Active Directory.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Benutzer → WLAN-AP → &quot;Darf Max rein?&quot; → NPS → Active Directory
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>                                            ↓
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>                              &quot;Ja, Max ist in Gruppe &#39;WLAN-User&#39;&quot;
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>                                            ↓
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>                    WLAN-AP ← &quot;Zugriff gewährt&quot; ← NPS
+<h2 id="hintergrund-dfs-ein-pfad-fur-alles">Hintergrund: DFS – ein Pfad für alles</h2>
+<p>Stell dir vor, deine Firma hat drei Fileserver: <code>SRV-FS01</code>, <code>SRV-FS02</code> und <code>SRV-FS03</code>. Jeder Benutzer muss sich merken, welche Datei auf welchem Server liegt:</p>
+<ul>
+<li><code>\\SRV-FS01\Vertrieb</code></li>
+<li><code>\\SRV-FS02\Projekte</code></li>
+<li><code>\\SRV-FS03\Vorlagen</code></li>
+</ul>
+<p>Das ist unübersichtlich! <strong>DFS-Namespaces</strong> lösen das Problem: Alle Freigaben werden unter <strong>einem einzigen Pfad</strong> zusammengefasst:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>\\training.local\dfs\           ← Ein Einstiegspunkt für alles
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├── Vertrieb\                   ← zeigt auf \\SRV-FS01\Vertrieb
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>├── Projekte\                   ← zeigt auf \\SRV-FS02\Projekte
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>└── Vorlagen\                   ← zeigt auf \\SRV-FS03\Vorlagen
 </code></pre></div>
-<h3 id="typische-einsatzszenarien">Typische Einsatzszenarien</h3>
 <table>
 <thead>
 <tr>
-<th>Szenario</th>
-<th>Was passiert</th>
+<th>Ohne DFS</th>
+<th>Mit DFS</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>WLAN-Anmeldung (802.1X)</td>
-<td>Laptop sendet Domänen-Credentials → NPS prüft → Zugriff</td>
+<td>Jeder merkt sich Server + Freigabe</td>
+<td>Ein Pfad: <code>\\training.local\dfs\...</code></td>
 </tr>
 <tr>
-<td>Switch-Port-Security</td>
-<td>PC steckt Kabel ein → Switch fragt NPS → Port wird freigeschaltet</td>
+<td>Server-Umzug = alle Links kaputt</td>
+<td>Server-Umzug = nur DFS-Ziel ändern</td>
 </tr>
 <tr>
-<td>VPN-Zugang</td>
-<td>Benutzer wählt sich ein → VPN-Server fragt NPS → Tunnel wird aufgebaut</td>
+<td>Kein Failover</td>
+<td>Mehrere Ziele = Ausfallsicherheit</td>
+</tr>
+</tbody>
+</table>
+<h3 id="dfs-namespaces-vs-dfs-replikation">DFS-Namespaces vs. DFS-Replikation</h3>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>DFS-Namespaces</th>
+<th>DFS-Replikation (DFS-R)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Was es tut</td>
+<td>Einheitliche Pfade</td>
+<td>Dateien zwischen Servern synchronisieren</td>
+</tr>
+<tr>
+<td>Wann nutzen</td>
+<td>Immer (Ordnung!)</td>
+<td>Multi-Site, Redundanz</td>
+</tr>
+<tr>
+<td>Benötigt</td>
+<td>DFS-Namespace-Rolle</td>
+<td>DFS-Replikation-Rolle</td>
 </tr>
 </tbody>
 </table>
 <hr />
-<h2 id="schritt-fur-schritt-nps-installieren">Schritt für Schritt: NPS installieren</h2>
-<h3 id="schritt-1-nps-rolle-installieren">Schritt 1: NPS-Rolle installieren</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nb">Install-WindowsFeature</span> <span class="n">NPAS</span> <span class="n">-IncludeManagementTools</span>
+<h2 id="schritt-fur-schritt-dfs-namespace-einrichten">Schritt für Schritt: DFS-Namespace einrichten</h2>
+<h3 id="schritt-1-dfs-rollen-installieren">Schritt 1: DFS-Rollen installieren</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nb">Install-WindowsFeature</span> <span class="n">FS-DFS-Namespace</span><span class="p">,</span> <span class="n">FS-DFS-Replication</span><span class="p">,</span> <span class="n">RSAT-DFS-Mgmt-Con</span>
 </code></pre></div>
-<h3 id="schritt-2-nps-konsole-offnen">Schritt 2: NPS-Konsole öffnen</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">nps</span><span class="p">.</span><span class="n">msc</span>
-</code></pre></div>
-<p>Oder: <strong>Server Manager</strong> → <strong>Tools</strong> → <strong>Netzwerkrichtlinienserver</strong></p>
-<h3 id="schritt-3-nps-im-active-directory-registrieren">Schritt 3: NPS im Active Directory registrieren</h3>
-<p>Damit NPS die Benutzerkonten aus AD lesen kann:</p>
+<h3 id="schritt-2-dfs-namespace-erstellen">Schritt 2: DFS-Namespace erstellen</h3>
 <ol>
-<li>In der NPS-Konsole: Rechtsklick auf <strong>NPS (Lokal)</strong> → <strong>Server in Active Directory registrieren</strong></li>
-<li>Bestätige mit <strong>OK</strong></li>
-</ol>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c"># Oder per PowerShell:</span>
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">netsh</span> <span class="n">ras</span> <span class="n">add</span> <span class="n">registeredserver</span>
-</code></pre></div>
-<h3 id="schritt-4-radius-client-hinzufugen">Schritt 4: RADIUS-Client hinzufügen</h3>
-<p>Ein RADIUS-Client ist das Netzwerkgerät, das den NPS fragt (z.B. ein WLAN-AP):</p>
-<ol>
-<li>Erweitere <strong>RADIUS-Clients und -Server</strong> → Rechtsklick auf <strong>RADIUS-Clients</strong> → <strong>Neu</strong></li>
-<li>Fülle aus:</li>
+<li>Öffne <strong>DFS-Verwaltung</strong> (dfsmgmt.msc)</li>
+<li>Rechtsklick auf <strong>Namespaces</strong> → <strong>Neuer Namespace...</strong></li>
+<li>Konfiguration:</li>
 </ol>
 <table>
 <thead>
@@ -1501,53 +1496,84 @@
 </thead>
 <tbody>
 <tr>
-<td>Anzeigename</td>
-<td><code>WLAN-AP-01</code></td>
+<td>Namespace-Server</td>
+<td><code>SRV-FS01</code></td>
 </tr>
 <tr>
-<td>Adresse (IP oder DNS)</td>
-<td><code>192.168.100.50</code></td>
+<td>Namespace-Name</td>
+<td><code>dfs</code></td>
 </tr>
 <tr>
-<td>Gemeinsamer geheimer Schlüssel</td>
-<td>Ein starkes Passwort (wird auch auf dem AP konfiguriert)</td>
+<td>Namespace-Typ</td>
+<td><strong>Domänenbasiert</strong> (empfohlen)</td>
 </tr>
 </tbody>
 </table>
-<h3 id="schritt-5-netzwerkrichtlinie-erstellen">Schritt 5: Netzwerkrichtlinie erstellen</h3>
+<p>Ergebnis: Der Pfad <code>\\training.local\dfs</code> ist jetzt erreichbar.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c"># Oder per PowerShell:</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nb">New-DfsnRoot</span> <span class="n">-TargetPath</span> <span class="s2">&quot;\\SRV-FS01\dfs&quot;</span> <span class="n">-Type</span> <span class="n">DomainV2</span> <span class="n">-Path</span> <span class="s2">&quot;\\training.local\dfs&quot;</span>
+</code></pre></div>
+<h3 id="schritt-3-ordner-verknupfungen-hinzufugen">Schritt 3: Ordner (Verknüpfungen) hinzufügen</h3>
 <ol>
-<li>Erweitere <strong>Richtlinien</strong> → Rechtsklick auf <strong>Netzwerkrichtlinien</strong> → <strong>Neu</strong></li>
-<li>Richtlinienname: <code>WLAN-Zugriff für IT-Abteilung</code></li>
-<li>Bedingung hinzufügen: <strong>Windows-Gruppen</strong> → Gruppe <code>IT-Abteilung</code> auswählen</li>
-<li>Zugriffsberechtigung: <strong>Zugriff gewähren</strong></li>
-<li>Authentifizierungsmethode: <strong>Microsoft: Geschütztes EAP (PEAP)</strong></li>
+<li>In der DFS-Verwaltung: Rechtsklick auf den Namespace → <strong>Neuer Ordner...</strong></li>
+<li>Ordnername: <code>Vertrieb</code></li>
+<li><strong>Ordnerziel hinzufügen</strong> → <code>\\SRV-FS01\Vertrieb</code></li>
+<li>Wiederholen für weitere Freigaben</li>
 </ol>
-<div class="admonition info">
-<p class="admonition-title">In dieser Trainingsumgebung</p>
-<p>Da wir keine physischen WLAN-APs haben, simulieren wir den RADIUS-Test mit dem Tool <code>NTRadPing</code> oder per PowerShell. Das Prinzip bleibt identisch.</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c"># Per PowerShell:</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nb">New-DfsnFolder</span> <span class="n">-Path</span> <span class="s2">&quot;\\training.local\dfs\Vertrieb&quot;</span> <span class="p">`</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>    <span class="n">-TargetPath</span> <span class="s2">&quot;\\SRV-FS01\Vertrieb&quot;</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="nb">New-DfsnFolder</span> <span class="n">-Path</span> <span class="s2">&quot;\\training.local\dfs\Projekte&quot;</span> <span class="p">`</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>    <span class="n">-TargetPath</span> <span class="s2">&quot;\\SRV-FS01\Projekte&quot;</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="nb">New-DfsnFolder</span> <span class="n">-Path</span> <span class="s2">&quot;\\training.local\dfs\Allgemein&quot;</span> <span class="p">`</span>
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>    <span class="n">-TargetPath</span> <span class="s2">&quot;\\SRV-FS01\Allgemein&quot;</span>
+</code></pre></div>
+<h3 id="schritt-4-vom-client-testen">Schritt 4: Vom Client testen</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="c"># DFS-Pfad aufrufen</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="nb">Get-ChildItem</span> <span class="s2">&quot;\\training.local\dfs&quot;</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="c"># Netzlaufwerk auf DFS-Pfad mappen</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="nb">New-PSDrive</span> <span class="n">-Name</span> <span class="s2">&quot;S&quot;</span> <span class="n">-PSProvider</span> <span class="n">FileSystem</span> <span class="n">-Root</span> <span class="s2">&quot;\\training.local\dfs&quot;</span> <span class="n">-Persist</span>
+</code></pre></div>
+<div class="admonition success">
+<p class="admonition-title">Geschafft!</p>
+<p>Alle Benutzer können jetzt über <code>\\training.local\dfs\</code> auf sämtliche Freigaben zugreifen – egal auf welchem physischen Server die Daten liegen.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tipp: Netzlaufwerk per GPO</p>
+<p>In der Praxis mappst du <code>\\training.local\dfs</code> als Netzlaufwerk per Group Policy. So sieht jeder Benutzer im Explorer automatisch Laufwerk <code>S:\</code> mit allen Abteilungsordnern.</p>
 </div>
 <hr />
 <h2 id="challenge">Challenge</h2>
 <div class="admonition question">
-<p class="admonition-title">Challenge: NPS-Richtlinie für VPN-Zugriff</p>
-<p>Erstelle eine NPS-Netzwerkrichtlinie, die nur Mitgliedern der AD-Gruppe <code>VPN-User</code> den Zugriff erlaubt. Die Richtlinie soll:</p>
+<p class="admonition-title">Challenge: DFS-Namespace mit mehreren Ordnern</p>
+<p>Erstelle einen DFS-Namespace <code>\\training.local\firma</code> mit folgenden Ordnern:</p>
 <ul>
-<li>Bedingung: Mitglied der Gruppe <code>VPN-User</code></li>
-<li>Authentifizierung: MS-CHAPv2</li>
-<li>Zugriff: Gewährt</li>
+<li><code>Vorlagen</code> → zeigt auf <code>\\SRV-FS01\Vorlagen</code></li>
+<li><code>IT-Intern</code> → zeigt auf <code>\\SRV-FS01\IT</code></li>
+<li><code>Tausch</code> → zeigt auf <code>\\SRV-FS01\Tausch</code></li>
 </ul>
+<p>Verbinde dich von <code>CLIENT01</code> und prüfe ob alle Ordner unter <code>\\training.local\firma\</code> erreichbar sind.</p>
 </div>
 <details class="success">
 <summary>Hinweis</summary>
-<ol>
-<li>Erstelle zuerst die Gruppe <code>VPN-User</code> im Active Directory</li>
-<li>Füge einen Testbenutzer hinzu</li>
-<li>Erstelle die Netzwerkrichtlinie im NPS mit der Bedingung "Windows-Gruppen"</li>
-<li>Wähle MS-CHAPv2 als Authentifizierungsmethode</li>
-</ol>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c"># Namespace erstellen</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="nb">New-DfsnRoot</span> <span class="n">-TargetPath</span> <span class="s2">&quot;\\SRV-FS01\firma&quot;</span> <span class="n">-Type</span> <span class="n">DomainV2</span> <span class="n">-Path</span> <span class="s2">&quot;\\training.local\firma&quot;</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="c"># Ordner hinzufügen</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="nb">New-DfsnFolder</span> <span class="n">-Path</span> <span class="s2">&quot;\\training.local\firma\Vorlagen&quot;</span> <span class="n">-TargetPath</span> <span class="s2">&quot;\\SRV-FS01\Vorlagen&quot;</span>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="nb">New-DfsnFolder</span> <span class="n">-Path</span> <span class="s2">&quot;\\training.local\firma\IT-Intern&quot;</span> <span class="n">-TargetPath</span> <span class="s2">&quot;\\SRV-FS01\IT&quot;</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="nb">New-DfsnFolder</span> <span class="n">-Path</span> <span class="s2">&quot;\\training.local\firma\Tausch&quot;</span> <span class="n">-TargetPath</span> <span class="s2">&quot;\\SRV-FS01\Tausch&quot;</span>
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="c"># Auf CLIENT01 testen:</span>
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="nb">Test-Path</span> <span class="s2">&quot;\\training.local\firma\Vorlagen&quot;</span>
+<a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a><span class="nb">Get-ChildItem</span> <span class="s2">&quot;\\training.local\firma&quot;</span>
+</code></pre></div>
 </details>
 <hr />
-<p>Weiter zu <a href="../modul-13-vpn/">Modul 13 – VPN</a> →</p>
+<p>Weiter zu <a href="../modul-18-fsrm/">Modul 18 – Quotas &amp; FSRM</a> →</p>
 
 
 
@@ -1585,7 +1611,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Fußzeile" >
         
           
-          <a href="../modul-11-iis/" class="md-footer__link md-footer__link--prev" aria-label="Zurück: Modul 11 – Webserver IIS">
+          <a href="../modul-16-ntfs/" class="md-footer__link md-footer__link--prev" aria-label="Zurück: Modul 16 – NTFS-Berechtigungen">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1595,20 +1621,20 @@
                 Zurück
               </span>
               <div class="md-ellipsis">
-                Modul 11 – Webserver IIS
+                Modul 16 – NTFS-Berechtigungen
               </div>
             </div>
           </a>
         
         
           
-          <a href="../modul-13-vpn/" class="md-footer__link md-footer__link--next" aria-label="Weiter: Modul 13 – VPN">
+          <a href="../modul-18-fsrm/" class="md-footer__link md-footer__link--next" aria-label="Weiter: Modul 18 – Quotas &amp; FSRM">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Weiter
               </span>
               <div class="md-ellipsis">
-                Modul 13 – VPN
+                Modul 18 – Quotas & FSRM
               </div>
             </div>
             <div class="md-footer__button md-icon">

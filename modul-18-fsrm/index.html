@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://igerla.github.io/WindowsOnPremTraining/modul-12-nps/">
+        <link rel="canonical" href="https://igerla.github.io/WindowsOnPremTraining/modul-18-fsrm/">
       
       
-        <link rel="prev" href="../modul-11-iis/">
+        <link rel="prev" href="../modul-17-dfs/">
       
       
-        <link rel="next" href="../modul-13-vpn/">
+        <link rel="next" href="../modul-19-druckserver/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Modul 12 – NPS & RADIUS - Windows On-Prem Einstiegstraining</title>
+        <title>Modul 18 – Quotas & FSRM - Windows On-Prem Einstiegstraining</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#modul-12-nps-radius" class="md-skip">
+        <a href="#modul-18-quotas-fsrm" class="md-skip">
           Zum Inhalt
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Modul 12 – NPS & RADIUS
+              Modul 18 – Quotas & FSRM
             
           </span>
         </div>
@@ -618,20 +618,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -652,7 +650,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -779,37 +777,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Modul 12 – NPS & RADIUS
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../modul-12-nps/" class="md-nav__link">
         
   
   
@@ -825,148 +796,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Inhaltsverzeichnis
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#lernziele" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Lernziele
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hintergrund-radius-zentraler-netzwerk-tursteher" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Hintergrund: RADIUS – zentraler Netzwerk-Türsteher
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Hintergrund: RADIUS – zentraler Netzwerk-Türsteher">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#typische-einsatzszenarien" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Typische Einsatzszenarien
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#schritt-fur-schritt-nps-installieren" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt für Schritt: NPS installieren
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Schritt für Schritt: NPS installieren">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#schritt-1-nps-rolle-installieren" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 1: NPS-Rolle installieren
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#schritt-2-nps-konsole-offnen" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 2: NPS-Konsole öffnen
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#schritt-3-nps-im-active-directory-registrieren" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 3: NPS im Active Directory registrieren
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#schritt-4-radius-client-hinzufugen" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 4: RADIUS-Client hinzufügen
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#schritt-5-netzwerkrichtlinie-erstellen" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 5: Netzwerkrichtlinie erstellen
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#challenge" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Challenge
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1039,18 +868,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
           <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
@@ -1071,7 +902,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1170,10 +1001,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../modul-18-fsrm/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modul 18 – Quotas & FSRM
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1189,6 +1047,159 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lernziele" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lernziele
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hintergrund-fsrm-ordnung-auf-dem-fileserver" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hintergrund: FSRM – Ordnung auf dem Fileserver
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hintergrund: FSRM – Ordnung auf dem Fileserver">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#harte-vs-weiche-quotas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Harte vs. Weiche Quotas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schritt-fur-schritt-fsrm-einrichten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt für Schritt: FSRM einrichten
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Schritt für Schritt: FSRM einrichten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#schritt-1-fsrm-installieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 1: FSRM installieren
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-2-fsrm-konsole-offnen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 2: FSRM-Konsole öffnen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-3-quota-erstellen-gui" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 3: Quota erstellen (GUI)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-4-quota-per-powershell-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 4: Quota per PowerShell erstellen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-5-datei-screening-einrichten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 5: Datei-Screening einrichten
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-6-speicherbericht-generieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 6: Speicherbericht generieren
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Challenge
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1295,22 +1306,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#hintergrund-radius-zentraler-netzwerk-tursteher" class="md-nav__link">
+  <a href="#hintergrund-fsrm-ordnung-auf-dem-fileserver" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Hintergrund: RADIUS – zentraler Netzwerk-Türsteher
+        Hintergrund: FSRM – Ordnung auf dem Fileserver
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Hintergrund: RADIUS – zentraler Netzwerk-Türsteher">
+    <nav class="md-nav" aria-label="Hintergrund: FSRM – Ordnung auf dem Fileserver">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#typische-einsatzszenarien" class="md-nav__link">
+  <a href="#harte-vs-weiche-quotas" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Typische Einsatzszenarien
+        Harte vs. Weiche Quotas
       
     </span>
   </a>
@@ -1323,22 +1334,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#schritt-fur-schritt-nps-installieren" class="md-nav__link">
+  <a href="#schritt-fur-schritt-fsrm-einrichten" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt für Schritt: NPS installieren
+        Schritt für Schritt: FSRM einrichten
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Schritt für Schritt: NPS installieren">
+    <nav class="md-nav" aria-label="Schritt für Schritt: FSRM einrichten">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#schritt-1-nps-rolle-installieren" class="md-nav__link">
+  <a href="#schritt-1-fsrm-installieren" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt 1: NPS-Rolle installieren
+        Schritt 1: FSRM installieren
       
     </span>
   </a>
@@ -1346,10 +1357,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#schritt-2-nps-konsole-offnen" class="md-nav__link">
+  <a href="#schritt-2-fsrm-konsole-offnen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt 2: NPS-Konsole öffnen
+        Schritt 2: FSRM-Konsole öffnen
       
     </span>
   </a>
@@ -1357,10 +1368,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#schritt-3-nps-im-active-directory-registrieren" class="md-nav__link">
+  <a href="#schritt-3-quota-erstellen-gui" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt 3: NPS im Active Directory registrieren
+        Schritt 3: Quota erstellen (GUI)
       
     </span>
   </a>
@@ -1368,10 +1379,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#schritt-4-radius-client-hinzufugen" class="md-nav__link">
+  <a href="#schritt-4-quota-per-powershell-erstellen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt 4: RADIUS-Client hinzufügen
+        Schritt 4: Quota per PowerShell erstellen
       
     </span>
   </a>
@@ -1379,10 +1390,21 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#schritt-5-netzwerkrichtlinie-erstellen" class="md-nav__link">
+  <a href="#schritt-5-datei-screening-einrichten" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt 5: Netzwerkrichtlinie erstellen
+        Schritt 5: Datei-Screening einrichten
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-6-speicherbericht-generieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 6: Speicherbericht generieren
       
     </span>
   </a>
@@ -1425,72 +1447,77 @@
   
 
 
-<h1 id="modul-12-nps-radius">Modul 12 – NPS &amp; RADIUS</h1>
+<h1 id="modul-18-quotas-fsrm">Modul 18 – Quotas &amp; FSRM</h1>
 <h2 id="lernziele">Lernziele</h2>
 <p>Nach diesem Modul kannst du:</p>
 <ul>
-<li>Erklären was RADIUS ist und warum zentrale Authentifizierung wichtig ist</li>
-<li>Den Network Policy Server (NPS) installieren und konfigurieren</li>
-<li>RADIUS-Clients (z.B. Switches, WLAN-APs) registrieren</li>
-<li>Netzwerkrichtlinien erstellen (wer darf was im Netzwerk?)</li>
-<li>Den Zusammenhang zwischen NPS, Active Directory und Netzwerkgeräten erklären</li>
+<li>Erklären was FSRM (File Server Resource Manager) ist</li>
+<li>Quotas (Speicherkontingente) auf Ordner anwenden</li>
+<li>Den Unterschied zwischen harten und weichen Quotas erklären</li>
+<li>Datei-Screening einrichten (bestimmte Dateitypen blockieren)</li>
+<li>Berichte über Speichernutzung generieren</li>
 </ul>
 <hr />
-<h2 id="hintergrund-radius-zentraler-netzwerk-tursteher">Hintergrund: RADIUS – zentraler Netzwerk-Türsteher</h2>
-<p>Stell dir vor, du hast 20 WLAN-Access-Points und 5 Switches mit Port-Authentifizierung. Jeder soll prüfen, ob ein Benutzer ins Netzwerk darf. Ohne RADIUS müsstest du auf <strong>jedem Gerät einzeln</strong> Benutzerkonten pflegen.</p>
-<p><strong>RADIUS (Remote Authentication Dial-In User Service)</strong> löst das Problem: Alle Netzwerkgeräte fragen einen zentralen Server – den <strong>NPS (Network Policy Server)</strong> – und der prüft gegen Active Directory.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Benutzer → WLAN-AP → &quot;Darf Max rein?&quot; → NPS → Active Directory
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>                                            ↓
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>                              &quot;Ja, Max ist in Gruppe &#39;WLAN-User&#39;&quot;
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>                                            ↓
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>                    WLAN-AP ← &quot;Zugriff gewährt&quot; ← NPS
-</code></pre></div>
-<h3 id="typische-einsatzszenarien">Typische Einsatzszenarien</h3>
+<h2 id="hintergrund-fsrm-ordnung-auf-dem-fileserver">Hintergrund: FSRM – Ordnung auf dem Fileserver</h2>
+<p>Ohne Kontrolle passiert auf jedem Fileserver dasselbe: Nach ein paar Monaten ist die Festplatte voll – weil jemand seine komplette Filmsammlung im Projektordner abgelegt hat.</p>
+<p><strong>FSRM (File Server Resource Manager)</strong> gibt dir drei Werkzeuge dagegen:</p>
 <table>
 <thead>
 <tr>
-<th>Szenario</th>
-<th>Was passiert</th>
+<th>Werkzeug</th>
+<th>Was es macht</th>
+<th>Alltags-Vergleich</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>WLAN-Anmeldung (802.1X)</td>
-<td>Laptop sendet Domänen-Credentials → NPS prüft → Zugriff</td>
+<td><strong>Quotas</strong></td>
+<td>Maximalen Speicherplatz pro Ordner/Benutzer festlegen</td>
+<td>Briefkasten hat maximale Größe</td>
 </tr>
 <tr>
-<td>Switch-Port-Security</td>
-<td>PC steckt Kabel ein → Switch fragt NPS → Port wird freigeschaltet</td>
+<td><strong>Datei-Screening</strong></td>
+<td>Bestimmte Dateitypen blockieren (z.B. .mp3, .exe)</td>
+<td>"Keine Haustiere erlaubt"-Schild</td>
 </tr>
 <tr>
-<td>VPN-Zugang</td>
-<td>Benutzer wählt sich ein → VPN-Server fragt NPS → Tunnel wird aufgebaut</td>
+<td><strong>Berichte</strong></td>
+<td>Übersicht wer wie viel Speicher nutzt</td>
+<td>Monatliche Nebenkostenabrechnung</td>
+</tr>
+</tbody>
+</table>
+<h3 id="harte-vs-weiche-quotas">Harte vs. Weiche Quotas</h3>
+<table>
+<thead>
+<tr>
+<th>Typ</th>
+<th>Verhalten</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Harte Quota</strong></td>
+<td>Benutzer kann NICHT mehr speichern wenn Limit erreicht</td>
+</tr>
+<tr>
+<td><strong>Weiche Quota</strong></td>
+<td>Benutzer wird gewarnt, kann aber weiterspeichern (nur Monitoring)</td>
 </tr>
 </tbody>
 </table>
 <hr />
-<h2 id="schritt-fur-schritt-nps-installieren">Schritt für Schritt: NPS installieren</h2>
-<h3 id="schritt-1-nps-rolle-installieren">Schritt 1: NPS-Rolle installieren</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nb">Install-WindowsFeature</span> <span class="n">NPAS</span> <span class="n">-IncludeManagementTools</span>
+<h2 id="schritt-fur-schritt-fsrm-einrichten">Schritt für Schritt: FSRM einrichten</h2>
+<h3 id="schritt-1-fsrm-installieren">Schritt 1: FSRM installieren</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nb">Install-WindowsFeature</span> <span class="n">FS-Resource-Manager</span> <span class="n">-IncludeManagementTools</span>
 </code></pre></div>
-<h3 id="schritt-2-nps-konsole-offnen">Schritt 2: NPS-Konsole öffnen</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">nps</span><span class="p">.</span><span class="n">msc</span>
+<h3 id="schritt-2-fsrm-konsole-offnen">Schritt 2: FSRM-Konsole öffnen</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">fsrm</span><span class="p">.</span><span class="n">msc</span>
 </code></pre></div>
-<p>Oder: <strong>Server Manager</strong> → <strong>Tools</strong> → <strong>Netzwerkrichtlinienserver</strong></p>
-<h3 id="schritt-3-nps-im-active-directory-registrieren">Schritt 3: NPS im Active Directory registrieren</h3>
-<p>Damit NPS die Benutzerkonten aus AD lesen kann:</p>
+<h3 id="schritt-3-quota-erstellen-gui">Schritt 3: Quota erstellen (GUI)</h3>
 <ol>
-<li>In der NPS-Konsole: Rechtsklick auf <strong>NPS (Lokal)</strong> → <strong>Server in Active Directory registrieren</strong></li>
-<li>Bestätige mit <strong>OK</strong></li>
-</ol>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c"># Oder per PowerShell:</span>
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">netsh</span> <span class="n">ras</span> <span class="n">add</span> <span class="n">registeredserver</span>
-</code></pre></div>
-<h3 id="schritt-4-radius-client-hinzufugen">Schritt 4: RADIUS-Client hinzufügen</h3>
-<p>Ein RADIUS-Client ist das Netzwerkgerät, das den NPS fragt (z.B. ein WLAN-AP):</p>
-<ol>
-<li>Erweitere <strong>RADIUS-Clients und -Server</strong> → Rechtsklick auf <strong>RADIUS-Clients</strong> → <strong>Neu</strong></li>
-<li>Fülle aus:</li>
+<li>In FSRM: <strong>Kontingentverwaltung</strong> → <strong>Kontingente</strong> → Rechtsklick → <strong>Kontingent erstellen...</strong></li>
+<li>Konfiguration:</li>
 </ol>
 <table>
 <thead>
@@ -1501,53 +1528,86 @@
 </thead>
 <tbody>
 <tr>
-<td>Anzeigename</td>
-<td><code>WLAN-AP-01</code></td>
+<td>Pfad</td>
+<td><code>D:\Freigaben\Abteilungen\Vertrieb</code></td>
 </tr>
 <tr>
-<td>Adresse (IP oder DNS)</td>
-<td><code>192.168.100.50</code></td>
+<td>Vorlage</td>
+<td><code>200 MB Limit</code> (oder eigene erstellen)</td>
 </tr>
 <tr>
-<td>Gemeinsamer geheimer Schlüssel</td>
-<td>Ein starkes Passwort (wird auch auf dem AP konfiguriert)</td>
+<td>Typ</td>
+<td>Harte Quota</td>
 </tr>
 </tbody>
 </table>
-<h3 id="schritt-5-netzwerkrichtlinie-erstellen">Schritt 5: Netzwerkrichtlinie erstellen</h3>
-<ol>
-<li>Erweitere <strong>Richtlinien</strong> → Rechtsklick auf <strong>Netzwerkrichtlinien</strong> → <strong>Neu</strong></li>
-<li>Richtlinienname: <code>WLAN-Zugriff für IT-Abteilung</code></li>
-<li>Bedingung hinzufügen: <strong>Windows-Gruppen</strong> → Gruppe <code>IT-Abteilung</code> auswählen</li>
-<li>Zugriffsberechtigung: <strong>Zugriff gewähren</strong></li>
-<li>Authentifizierungsmethode: <strong>Microsoft: Geschütztes EAP (PEAP)</strong></li>
-</ol>
-<div class="admonition info">
-<p class="admonition-title">In dieser Trainingsumgebung</p>
-<p>Da wir keine physischen WLAN-APs haben, simulieren wir den RADIUS-Test mit dem Tool <code>NTRadPing</code> oder per PowerShell. Das Prinzip bleibt identisch.</p>
+<h3 id="schritt-4-quota-per-powershell-erstellen">Schritt 4: Quota per PowerShell erstellen</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c"># Quota-Vorlage erstellen (1 GB, hart)</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nb">New-FsrmQuotaTemplate</span> <span class="n">-Name</span> <span class="s2">&quot;1GB Abteilung&quot;</span> <span class="p">`</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>    <span class="n">-Size</span> <span class="n">1GB</span> <span class="p">`</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>    <span class="n">-SoftLimit</span><span class="p">:</span><span class="nv">$false</span> <span class="p">`</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>    <span class="n">-Threshold</span> <span class="p">(</span><span class="nb">New-FsrmQuotaThreshold</span> <span class="n">-Percentage</span> <span class="n">85</span> <span class="p">`</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>        <span class="n">-Action</span> <span class="p">(</span><span class="nb">New-FsrmAction</span> <span class="n">-Type</span> <span class="n">Event</span> <span class="n">-EventType</span> <span class="n">Warning</span> <span class="p">`</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>            <span class="n">-Body</span> <span class="s2">&quot;Warnung: Ordner [Source Io Owner] erreicht 85% der Quota auf [Quota Path]&quot;</span><span class="p">))</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="c"># Quota auf Ordner anwenden</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="nb">New-FsrmQuota</span> <span class="n">-Path</span> <span class="s2">&quot;D:\Freigaben\Abteilungen\Vertrieb&quot;</span> <span class="p">`</span>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>    <span class="n">-Template</span> <span class="s2">&quot;1GB Abteilung&quot;</span>
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="c"># Auto-Apply: Quota automatisch auf neue Unterordner</span>
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="nb">New-FsrmAutoQuota</span> <span class="n">-Path</span> <span class="s2">&quot;D:\Freigaben\Benutzer&quot;</span> <span class="p">`</span>
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a>    <span class="n">-Template</span> <span class="s2">&quot;1GB Abteilung&quot;</span>
+</code></pre></div>
+<h3 id="schritt-5-datei-screening-einrichten">Schritt 5: Datei-Screening einrichten</h3>
+<p>Blockiere unerwünschte Dateien (z.B. Medien-Dateien auf dem Projektlaufwerk):</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c"># Dateigruppe anzeigen (vordefiniert)</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nb">Get-FsrmFileGroup</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="c"># Datei-Screening erstellen: Keine Audio/Video-Dateien</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="nb">New-FsrmFileScreen</span> <span class="n">-Path</span> <span class="s2">&quot;D:\Freigaben\Projekte&quot;</span> <span class="p">`</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>    <span class="n">-Template</span> <span class="s2">&quot;Block Audio and Video Files&quot;</span>
+</code></pre></div>
+<p>Im GUI: <strong>Datei-Screening-Verwaltung</strong> → <strong>Datei-Screenings</strong> → <strong>Neues Datei-Screening erstellen</strong></p>
+<h3 id="schritt-6-speicherbericht-generieren">Schritt 6: Speicherbericht generieren</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="c"># Ad-hoc-Bericht erstellen</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="nb">New-FsrmStorageReport</span> <span class="n">-Name</span> <span class="s2">&quot;Speichernutzung Q1&quot;</span> <span class="p">`</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>    <span class="n">-Namespace</span> <span class="s2">&quot;D:\Freigaben&quot;</span> <span class="p">`</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>    <span class="n">-ReportType</span> <span class="n">LargeFiles</span><span class="p">,</span> <span class="n">DuplicateFiles</span><span class="p">,</span> <span class="n">FilesByOwner</span> <span class="p">`</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>    <span class="n">-Interactive</span>
+</code></pre></div>
+<p>Im GUI: <strong>Speicherberichteverwaltung</strong> → Rechtsklick → <strong>Berichte jetzt generieren</strong></p>
+<div class="admonition tip">
+<p class="admonition-title">Automatische Berichte</p>
+<p>Du kannst Berichte auch zeitgesteuert generieren lassen (z.B. jeden Montag) und per E-Mail an den Admin senden.</p>
 </div>
 <hr />
 <h2 id="challenge">Challenge</h2>
 <div class="admonition question">
-<p class="admonition-title">Challenge: NPS-Richtlinie für VPN-Zugriff</p>
-<p>Erstelle eine NPS-Netzwerkrichtlinie, die nur Mitgliedern der AD-Gruppe <code>VPN-User</code> den Zugriff erlaubt. Die Richtlinie soll:</p>
-<ul>
-<li>Bedingung: Mitglied der Gruppe <code>VPN-User</code></li>
-<li>Authentifizierung: MS-CHAPv2</li>
-<li>Zugriff: Gewährt</li>
-</ul>
+<p class="admonition-title">Challenge: Quotas für Benutzerordner</p>
+<p>Erstelle unter <code>D:\Freigaben\Benutzer</code> für drei Benutzer je einen persönlichen Ordner. Wende eine Auto-Apply-Quota von 500 MB an. Teste, ob die Quota greift, indem du eine große Datei erzeugst:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c"># Testdatei erstellen (600 MB):</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="n">fsutil</span> <span class="n">file</span> <span class="n">createnew</span> <span class="s2">&quot;\\SRV-FS01\Benutzer\max\testdatei.bin&quot;</span> <span class="n">629145600</span>
+</code></pre></div>
 </div>
 <details class="success">
 <summary>Hinweis</summary>
-<ol>
-<li>Erstelle zuerst die Gruppe <code>VPN-User</code> im Active Directory</li>
-<li>Füge einen Testbenutzer hinzu</li>
-<li>Erstelle die Netzwerkrichtlinie im NPS mit der Bedingung "Windows-Gruppen"</li>
-<li>Wähle MS-CHAPv2 als Authentifizierungsmethode</li>
-</ol>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="c"># Benutzerordner erstellen</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="s2">&quot;max&quot;</span><span class="p">,</span><span class="s2">&quot;anna&quot;</span><span class="p">,</span><span class="s2">&quot;tim&quot;</span> <span class="p">|</span> <span class="k">ForEach</span><span class="n">-Object</span> <span class="p">{</span>
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>    <span class="nb">New-Item</span> <span class="n">-Path</span> <span class="s2">&quot;D:\Freigaben\Benutzer\$_&quot;</span> <span class="n">-ItemType</span> <span class="n">Directory</span> <span class="n">-Force</span>
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="p">}</span>
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="c"># Quota-Vorlage</span>
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a><span class="nb">New-FsrmQuotaTemplate</span> <span class="n">-Name</span> <span class="s2">&quot;500MB Benutzer&quot;</span> <span class="n">-Size</span> <span class="n">500MB</span> <span class="n">-SoftLimit</span><span class="p">:</span><span class="nv">$false</span>
+<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>
+<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a><span class="c"># Auto-Apply auf den übergeordneten Ordner</span>
+<a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a><span class="nb">New-FsrmAutoQuota</span> <span class="n">-Path</span> <span class="s2">&quot;D:\Freigaben\Benutzer&quot;</span> <span class="n">-Template</span> <span class="s2">&quot;500MB Benutzer&quot;</span>
+<a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a>
+<a id="__codelineno-6-12" name="__codelineno-6-12" href="#__codelineno-6-12"></a><span class="c"># Test: Diese Datei sollte fehlschlagen (600 MB &gt; 500 MB Quota)</span>
+<a id="__codelineno-6-13" name="__codelineno-6-13" href="#__codelineno-6-13"></a><span class="n">fsutil</span> <span class="n">file</span> <span class="n">createnew</span> <span class="s2">&quot;D:\Freigaben\Benutzer\max\testdatei.bin&quot;</span> <span class="n">629145600</span>
+</code></pre></div>
 </details>
 <hr />
-<p>Weiter zu <a href="../modul-13-vpn/">Modul 13 – VPN</a> →</p>
+<p>Weiter zu <a href="../modul-19-druckserver/">Modul 19 – Druckserver</a> →</p>
 
 
 
@@ -1585,7 +1645,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Fußzeile" >
         
           
-          <a href="../modul-11-iis/" class="md-footer__link md-footer__link--prev" aria-label="Zurück: Modul 11 – Webserver IIS">
+          <a href="../modul-17-dfs/" class="md-footer__link md-footer__link--prev" aria-label="Zurück: Modul 17 – DFS">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1595,20 +1655,20 @@
                 Zurück
               </span>
               <div class="md-ellipsis">
-                Modul 11 – Webserver IIS
+                Modul 17 – DFS
               </div>
             </div>
           </a>
         
         
           
-          <a href="../modul-13-vpn/" class="md-footer__link md-footer__link--next" aria-label="Weiter: Modul 13 – VPN">
+          <a href="../modul-19-druckserver/" class="md-footer__link md-footer__link--next" aria-label="Weiter: Modul 19 – Druckserver">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Weiter
               </span>
               <div class="md-ellipsis">
-                Modul 13 – VPN
+                Modul 19 – Druckserver
               </div>
             </div>
             <div class="md-footer__button md-icon">

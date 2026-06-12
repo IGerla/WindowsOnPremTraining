@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://igerla.github.io/WindowsOnPremTraining/modul-12-nps/">
+        <link rel="canonical" href="https://igerla.github.io/WindowsOnPremTraining/modul-16-ntfs/">
       
       
-        <link rel="prev" href="../modul-11-iis/">
+        <link rel="prev" href="../modul-15-freigaben/">
       
       
-        <link rel="next" href="../modul-13-vpn/">
+        <link rel="next" href="../modul-17-dfs/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Modul 12 – NPS & RADIUS - Windows On-Prem Einstiegstraining</title>
+        <title>Modul 16 – NTFS-Berechtigungen - Windows On-Prem Einstiegstraining</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#modul-12-nps-radius" class="md-skip">
+        <a href="#modul-16-ntfs-berechtigungen" class="md-skip">
           Zum Inhalt
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Modul 12 – NPS & RADIUS
+              Modul 16 – NTFS-Berechtigungen
             
           </span>
         </div>
@@ -618,20 +618,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -652,7 +650,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -779,37 +777,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Modul 12 – NPS & RADIUS
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../modul-12-nps/" class="md-nav__link">
         
   
   
@@ -825,148 +796,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Inhaltsverzeichnis
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#lernziele" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Lernziele
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hintergrund-radius-zentraler-netzwerk-tursteher" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Hintergrund: RADIUS – zentraler Netzwerk-Türsteher
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Hintergrund: RADIUS – zentraler Netzwerk-Türsteher">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#typische-einsatzszenarien" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Typische Einsatzszenarien
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#schritt-fur-schritt-nps-installieren" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt für Schritt: NPS installieren
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Schritt für Schritt: NPS installieren">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#schritt-1-nps-rolle-installieren" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 1: NPS-Rolle installieren
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#schritt-2-nps-konsole-offnen" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 2: NPS-Konsole öffnen
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#schritt-3-nps-im-active-directory-registrieren" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 3: NPS im Active Directory registrieren
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#schritt-4-radius-client-hinzufugen" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 4: RADIUS-Client hinzufügen
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#schritt-5-netzwerkrichtlinie-erstellen" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 5: Netzwerkrichtlinie erstellen
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#challenge" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Challenge
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1039,18 +868,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
         
           
           <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
@@ -1071,7 +902,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1114,10 +945,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../modul-16-ntfs/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modul 16 – NTFS-Berechtigungen
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1133,6 +991,170 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lernziele" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lernziele
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hintergrund-ntfs-wer-darf-was" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hintergrund: NTFS – wer darf was?
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hintergrund: NTFS – wer darf was?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#die-standard-berechtigungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Die Standard-Berechtigungen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vererbung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vererbung
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agdlp-best-practice-fur-berechtigungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AGDLP – Best Practice für Berechtigungen
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schritt-fur-schritt-berechtigungen-setzen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt für Schritt: Berechtigungen setzen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Schritt für Schritt: Berechtigungen setzen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#schritt-1-berechtigungen-per-gui-anzeigen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 1: Berechtigungen per GUI anzeigen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-2-berechtigung-hinzufugen-gui" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 2: Berechtigung hinzufügen (GUI)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-3-berechtigungen-per-powershell" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 3: Berechtigungen per PowerShell
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-4-vererbung-unterbrechen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 4: Vererbung unterbrechen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-5-effektive-berechtigungen-prufen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 5: Effektive Berechtigungen prüfen
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Challenge
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1295,22 +1317,44 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#hintergrund-radius-zentraler-netzwerk-tursteher" class="md-nav__link">
+  <a href="#hintergrund-ntfs-wer-darf-was" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Hintergrund: RADIUS – zentraler Netzwerk-Türsteher
+        Hintergrund: NTFS – wer darf was?
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Hintergrund: RADIUS – zentraler Netzwerk-Türsteher">
+    <nav class="md-nav" aria-label="Hintergrund: NTFS – wer darf was?">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#typische-einsatzszenarien" class="md-nav__link">
+  <a href="#die-standard-berechtigungen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Typische Einsatzszenarien
+        Die Standard-Berechtigungen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vererbung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vererbung
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agdlp-best-practice-fur-berechtigungen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        AGDLP – Best Practice für Berechtigungen
       
     </span>
   </a>
@@ -1323,22 +1367,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#schritt-fur-schritt-nps-installieren" class="md-nav__link">
+  <a href="#schritt-fur-schritt-berechtigungen-setzen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt für Schritt: NPS installieren
+        Schritt für Schritt: Berechtigungen setzen
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Schritt für Schritt: NPS installieren">
+    <nav class="md-nav" aria-label="Schritt für Schritt: Berechtigungen setzen">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#schritt-1-nps-rolle-installieren" class="md-nav__link">
+  <a href="#schritt-1-berechtigungen-per-gui-anzeigen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt 1: NPS-Rolle installieren
+        Schritt 1: Berechtigungen per GUI anzeigen
       
     </span>
   </a>
@@ -1346,10 +1390,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#schritt-2-nps-konsole-offnen" class="md-nav__link">
+  <a href="#schritt-2-berechtigung-hinzufugen-gui" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt 2: NPS-Konsole öffnen
+        Schritt 2: Berechtigung hinzufügen (GUI)
       
     </span>
   </a>
@@ -1357,10 +1401,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#schritt-3-nps-im-active-directory-registrieren" class="md-nav__link">
+  <a href="#schritt-3-berechtigungen-per-powershell" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt 3: NPS im Active Directory registrieren
+        Schritt 3: Berechtigungen per PowerShell
       
     </span>
   </a>
@@ -1368,10 +1412,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#schritt-4-radius-client-hinzufugen" class="md-nav__link">
+  <a href="#schritt-4-vererbung-unterbrechen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt 4: RADIUS-Client hinzufügen
+        Schritt 4: Vererbung unterbrechen
       
     </span>
   </a>
@@ -1379,10 +1423,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#schritt-5-netzwerkrichtlinie-erstellen" class="md-nav__link">
+  <a href="#schritt-5-effektive-berechtigungen-prufen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt 5: Netzwerkrichtlinie erstellen
+        Schritt 5: Effektive Berechtigungen prüfen
       
     </span>
   </a>
@@ -1425,129 +1469,158 @@
   
 
 
-<h1 id="modul-12-nps-radius">Modul 12 – NPS &amp; RADIUS</h1>
+<h1 id="modul-16-ntfs-berechtigungen">Modul 16 – NTFS-Berechtigungen</h1>
 <h2 id="lernziele">Lernziele</h2>
 <p>Nach diesem Modul kannst du:</p>
 <ul>
-<li>Erklären was RADIUS ist und warum zentrale Authentifizierung wichtig ist</li>
-<li>Den Network Policy Server (NPS) installieren und konfigurieren</li>
-<li>RADIUS-Clients (z.B. Switches, WLAN-APs) registrieren</li>
-<li>Netzwerkrichtlinien erstellen (wer darf was im Netzwerk?)</li>
-<li>Den Zusammenhang zwischen NPS, Active Directory und Netzwerkgeräten erklären</li>
+<li>Die sechs Standard-NTFS-Berechtigungen erklären</li>
+<li>Berechtigungen auf Ordner und Dateien setzen (GUI + PowerShell)</li>
+<li>Vererbung verstehen, deaktivieren und gezielt unterbrechen</li>
+<li>Effektive Berechtigungen eines Benutzers prüfen</li>
+<li>Best Practices für Berechtigungsstrukturen anwenden (AGDLP)</li>
 </ul>
 <hr />
-<h2 id="hintergrund-radius-zentraler-netzwerk-tursteher">Hintergrund: RADIUS – zentraler Netzwerk-Türsteher</h2>
-<p>Stell dir vor, du hast 20 WLAN-Access-Points und 5 Switches mit Port-Authentifizierung. Jeder soll prüfen, ob ein Benutzer ins Netzwerk darf. Ohne RADIUS müsstest du auf <strong>jedem Gerät einzeln</strong> Benutzerkonten pflegen.</p>
-<p><strong>RADIUS (Remote Authentication Dial-In User Service)</strong> löst das Problem: Alle Netzwerkgeräte fragen einen zentralen Server – den <strong>NPS (Network Policy Server)</strong> – und der prüft gegen Active Directory.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Benutzer → WLAN-AP → &quot;Darf Max rein?&quot; → NPS → Active Directory
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>                                            ↓
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>                              &quot;Ja, Max ist in Gruppe &#39;WLAN-User&#39;&quot;
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>                                            ↓
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>                    WLAN-AP ← &quot;Zugriff gewährt&quot; ← NPS
-</code></pre></div>
-<h3 id="typische-einsatzszenarien">Typische Einsatzszenarien</h3>
+<h2 id="hintergrund-ntfs-wer-darf-was">Hintergrund: NTFS – wer darf was?</h2>
+<p>Stell dir einen Aktenschrank vor: Jede Schublade hat ein Schloss und nur bestimmte Schlüssel passen. NTFS-Berechtigungen sind diese Schlösser für dein Dateisystem.</p>
+<h3 id="die-standard-berechtigungen">Die Standard-Berechtigungen</h3>
 <table>
 <thead>
 <tr>
-<th>Szenario</th>
-<th>Was passiert</th>
+<th>Berechtigung</th>
+<th>Was sie erlaubt</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>WLAN-Anmeldung (802.1X)</td>
-<td>Laptop sendet Domänen-Credentials → NPS prüft → Zugriff</td>
+<td><strong>Vollzugriff</strong></td>
+<td>Alles (inkl. Berechtigungen ändern und Besitz übernehmen)</td>
 </tr>
 <tr>
-<td>Switch-Port-Security</td>
-<td>PC steckt Kabel ein → Switch fragt NPS → Port wird freigeschaltet</td>
+<td><strong>Ändern</strong></td>
+<td>Lesen + Schreiben + Löschen</td>
 </tr>
 <tr>
-<td>VPN-Zugang</td>
-<td>Benutzer wählt sich ein → VPN-Server fragt NPS → Tunnel wird aufgebaut</td>
+<td><strong>Lesen &amp; Ausführen</strong></td>
+<td>Dateien öffnen und Programme starten</td>
+</tr>
+<tr>
+<td><strong>Ordnerinhalt auflisten</strong></td>
+<td>Ordnerinhalt sehen (nur auf Ordnern)</td>
+</tr>
+<tr>
+<td><strong>Lesen</strong></td>
+<td>Dateien öffnen, aber nicht ändern</td>
+</tr>
+<tr>
+<td><strong>Schreiben</strong></td>
+<td>Neue Dateien erstellen, bestehende ändern</td>
 </tr>
 </tbody>
 </table>
+<h3 id="vererbung">Vererbung</h3>
+<p>Berechtigungen werden standardmäßig <strong>vererbt</strong> – von oben nach unten:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>D:\Freigaben\                    ← IT-Abteilung: Lesen
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>├── Projekte\                    ← erbt: IT-Abteilung: Lesen
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>│   ├── Projekt-A\              ← erbt: IT-Abteilung: Lesen
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>│   │   └── Konzept.docx        ← erbt: IT-Abteilung: Lesen
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>│   └── Projekt-B\              ← erbt: IT-Abteilung: Lesen
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>└── Intern\                      ← erbt: IT-Abteilung: Lesen
+</code></pre></div>
+<p>Du kannst die Vererbung an jeder Stelle <strong>unterbrechen</strong>, wenn ein Unterordner andere Berechtigungen braucht.</p>
+<h3 id="agdlp-best-practice-fur-berechtigungen">AGDLP – Best Practice für Berechtigungen</h3>
+<p><strong>A</strong>ccount → <strong>G</strong>lobale Gruppe → <strong>D</strong>omänenlokale Gruppe → <strong>P</strong>ermission (Berechtigung)</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Benutzer &quot;Max Müller&quot;
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>  → Mitglied in Globaler Gruppe &quot;IT-Mitarbeiter&quot;
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>    → Mitglied in Domänenlokaler Gruppe &quot;DL_Projekte_Ändern&quot;
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>      → Berechtigung &quot;Ändern&quot; auf Ordner &quot;D:\Projekte&quot;
+</code></pre></div>
+<p>Warum so kompliziert? Weil es bei 500 Benutzern und 200 Ordnern die einzige Methode ist, den Überblick zu behalten.</p>
 <hr />
-<h2 id="schritt-fur-schritt-nps-installieren">Schritt für Schritt: NPS installieren</h2>
-<h3 id="schritt-1-nps-rolle-installieren">Schritt 1: NPS-Rolle installieren</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nb">Install-WindowsFeature</span> <span class="n">NPAS</span> <span class="n">-IncludeManagementTools</span>
-</code></pre></div>
-<h3 id="schritt-2-nps-konsole-offnen">Schritt 2: NPS-Konsole öffnen</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">nps</span><span class="p">.</span><span class="n">msc</span>
-</code></pre></div>
-<p>Oder: <strong>Server Manager</strong> → <strong>Tools</strong> → <strong>Netzwerkrichtlinienserver</strong></p>
-<h3 id="schritt-3-nps-im-active-directory-registrieren">Schritt 3: NPS im Active Directory registrieren</h3>
-<p>Damit NPS die Benutzerkonten aus AD lesen kann:</p>
+<h2 id="schritt-fur-schritt-berechtigungen-setzen">Schritt für Schritt: Berechtigungen setzen</h2>
+<h3 id="schritt-1-berechtigungen-per-gui-anzeigen">Schritt 1: Berechtigungen per GUI anzeigen</h3>
 <ol>
-<li>In der NPS-Konsole: Rechtsklick auf <strong>NPS (Lokal)</strong> → <strong>Server in Active Directory registrieren</strong></li>
-<li>Bestätige mit <strong>OK</strong></li>
+<li>Rechtsklick auf einen Ordner → <strong>Eigenschaften</strong> → Reiter <strong>Sicherheit</strong></li>
+<li>Du siehst die Liste der Gruppen/Benutzer und ihre Berechtigungen</li>
+<li>Klicke auf <strong>Erweitert</strong> für detaillierte Ansicht mit Vererbung</li>
 </ol>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c"># Oder per PowerShell:</span>
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">netsh</span> <span class="n">ras</span> <span class="n">add</span> <span class="n">registeredserver</span>
+<h3 id="schritt-2-berechtigung-hinzufugen-gui">Schritt 2: Berechtigung hinzufügen (GUI)</h3>
+<ol>
+<li><strong>Eigenschaften</strong> → <strong>Sicherheit</strong> → <strong>Bearbeiten</strong></li>
+<li><strong>Hinzufügen</strong> → Gruppenname eingeben (z.B. <code>IT-Abteilung</code>) → <strong>OK</strong></li>
+<li>Berechtigungen anhaken (z.B. <strong>Ändern</strong>)</li>
+<li><strong>OK</strong> → <strong>OK</strong></li>
+</ol>
+<h3 id="schritt-3-berechtigungen-per-powershell">Schritt 3: Berechtigungen per PowerShell</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c"># Aktuelle Berechtigungen anzeigen</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nb">Get-Acl</span> <span class="s2">&quot;D:\Freigaben\Projekte&quot;</span> <span class="p">|</span> <span class="nb">Format-List</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="c"># Berechtigung hinzufügen: IT-Abteilung darf Ändern</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="nv">$acl</span> <span class="p">=</span> <span class="nb">Get-Acl</span> <span class="s2">&quot;D:\Freigaben\Projekte&quot;</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="nv">$rule</span> <span class="p">=</span> <span class="nb">New-Object</span> <span class="n">System</span><span class="p">.</span><span class="n">Security</span><span class="p">.</span><span class="n">AccessControl</span><span class="p">.</span><span class="n">FileSystemAccessRule</span><span class="p">(</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>    <span class="s2">&quot;TRAINING\IT-Abteilung&quot;</span><span class="p">,</span>       <span class="c"># Wer</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>    <span class="s2">&quot;Modify&quot;</span><span class="p">,</span>                       <span class="c"># Was (Ändern)</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>    <span class="s2">&quot;ContainerInherit,ObjectInherit&quot;</span><span class="p">,</span> <span class="c"># Vererbung auf Unterordner + Dateien</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>    <span class="s2">&quot;None&quot;</span><span class="p">,</span>                         <span class="c"># Keine Ausnahmen</span>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>    <span class="s2">&quot;Allow&quot;</span>                         <span class="c"># Erlauben</span>
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="p">)</span>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="nv">$acl</span><span class="p">.</span><span class="n">AddAccessRule</span><span class="p">(</span><span class="nv">$rule</span><span class="p">)</span>
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="nb">Set-Acl</span> <span class="s2">&quot;D:\Freigaben\Projekte&quot;</span> <span class="nv">$acl</span>
 </code></pre></div>
-<h3 id="schritt-4-radius-client-hinzufugen">Schritt 4: RADIUS-Client hinzufügen</h3>
-<p>Ein RADIUS-Client ist das Netzwerkgerät, das den NPS fragt (z.B. ein WLAN-AP):</p>
-<ol>
-<li>Erweitere <strong>RADIUS-Clients und -Server</strong> → Rechtsklick auf <strong>RADIUS-Clients</strong> → <strong>Neu</strong></li>
-<li>Fülle aus:</li>
-</ol>
-<table>
-<thead>
-<tr>
-<th>Feld</th>
-<th>Wert</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Anzeigename</td>
-<td><code>WLAN-AP-01</code></td>
-</tr>
-<tr>
-<td>Adresse (IP oder DNS)</td>
-<td><code>192.168.100.50</code></td>
-</tr>
-<tr>
-<td>Gemeinsamer geheimer Schlüssel</td>
-<td>Ein starkes Passwort (wird auch auf dem AP konfiguriert)</td>
-</tr>
-</tbody>
-</table>
-<h3 id="schritt-5-netzwerkrichtlinie-erstellen">Schritt 5: Netzwerkrichtlinie erstellen</h3>
-<ol>
-<li>Erweitere <strong>Richtlinien</strong> → Rechtsklick auf <strong>Netzwerkrichtlinien</strong> → <strong>Neu</strong></li>
-<li>Richtlinienname: <code>WLAN-Zugriff für IT-Abteilung</code></li>
-<li>Bedingung hinzufügen: <strong>Windows-Gruppen</strong> → Gruppe <code>IT-Abteilung</code> auswählen</li>
-<li>Zugriffsberechtigung: <strong>Zugriff gewähren</strong></li>
-<li>Authentifizierungsmethode: <strong>Microsoft: Geschütztes EAP (PEAP)</strong></li>
-</ol>
-<div class="admonition info">
-<p class="admonition-title">In dieser Trainingsumgebung</p>
-<p>Da wir keine physischen WLAN-APs haben, simulieren wir den RADIUS-Test mit dem Tool <code>NTRadPing</code> oder per PowerShell. Das Prinzip bleibt identisch.</p>
-</div>
+<h3 id="schritt-4-vererbung-unterbrechen">Schritt 4: Vererbung unterbrechen</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c"># Vererbung deaktivieren und bestehende Rechte kopieren</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nv">$acl</span> <span class="p">=</span> <span class="nb">Get-Acl</span> <span class="s2">&quot;D:\Freigaben\Projekte\Geheim&quot;</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="nv">$acl</span><span class="p">.</span><span class="n">SetAccessRuleProtection</span><span class="p">(</span><span class="nv">$true</span><span class="p">,</span> <span class="nv">$true</span><span class="p">)</span>  <span class="c"># (Vererbung stoppen, bestehende Rechte kopieren)</span>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="nb">Set-Acl</span> <span class="s2">&quot;D:\Freigaben\Projekte\Geheim&quot;</span> <span class="nv">$acl</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="c"># Jetzt können hier eigene Berechtigungen gesetzt werden,</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="c"># unabhängig vom übergeordneten Ordner</span>
+</code></pre></div>
+<h3 id="schritt-5-effektive-berechtigungen-prufen">Schritt 5: Effektive Berechtigungen prüfen</h3>
+<p>Was darf ein bestimmter Benutzer <strong>wirklich</strong>? (Kombination aller Gruppen-Mitgliedschaften)</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="c"># GUI: Eigenschaften → Sicherheit → Erweitert → Effektiver Zugriff</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="c"># → Benutzer auswählen → &quot;Effektiven Zugriff anzeigen&quot;</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="c"># PowerShell:</span>
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a><span class="nb">Get-Acl</span> <span class="s2">&quot;D:\Freigaben\Projekte&quot;</span> <span class="p">|</span> 
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>    <span class="nb">Select-Object</span> <span class="n">-ExpandProperty</span> <span class="n">Access</span> <span class="p">|</span> 
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>    <span class="nb">Where-Object</span> <span class="p">{</span> <span class="nv">$_</span><span class="p">.</span><span class="n">IdentityReference</span> <span class="o">-like</span> <span class="s2">&quot;*IT*&quot;</span> <span class="p">}</span> <span class="p">|</span>
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>    <span class="nb">Format-Table</span> <span class="n">IdentityReference</span><span class="p">,</span> <span class="n">FileSystemRights</span><span class="p">,</span> <span class="n">AccessControlType</span>
+</code></pre></div>
 <hr />
 <h2 id="challenge">Challenge</h2>
 <div class="admonition question">
-<p class="admonition-title">Challenge: NPS-Richtlinie für VPN-Zugriff</p>
-<p>Erstelle eine NPS-Netzwerkrichtlinie, die nur Mitgliedern der AD-Gruppe <code>VPN-User</code> den Zugriff erlaubt. Die Richtlinie soll:</p>
-<ul>
-<li>Bedingung: Mitglied der Gruppe <code>VPN-User</code></li>
-<li>Authentifizierung: MS-CHAPv2</li>
-<li>Zugriff: Gewährt</li>
-</ul>
+<p class="admonition-title">Challenge: Berechtigungsstruktur nach AGDLP</p>
+<p>Erstelle folgende Struktur:</p>
+<ol>
+<li>Globale Gruppe: <code>GG_Vertrieb</code> (Mitglieder: Vertriebs-Benutzer)</li>
+<li>Domänenlokale Gruppe: <code>DL_Vertrieb_Lesen</code> </li>
+<li>Domänenlokale Gruppe: <code>DL_Vertrieb_Ändern</code></li>
+<li><code>GG_Vertrieb</code> → Mitglied in <code>DL_Vertrieb_Lesen</code></li>
+<li>Ordner <code>D:\Freigaben\Vertrieb</code>: <code>DL_Vertrieb_Ändern</code> = Ändern, <code>DL_Vertrieb_Lesen</code> = Lesen</li>
+</ol>
+<p>Teste mit einem Vertriebs-Benutzer, ob er lesen aber nicht löschen kann.</p>
 </div>
 <details class="success">
 <summary>Hinweis</summary>
-<ol>
-<li>Erstelle zuerst die Gruppe <code>VPN-User</code> im Active Directory</li>
-<li>Füge einen Testbenutzer hinzu</li>
-<li>Erstelle die Netzwerkrichtlinie im NPS mit der Bedingung "Windows-Gruppen"</li>
-<li>Wähle MS-CHAPv2 als Authentifizierungsmethode</li>
-</ol>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c"># Gruppen erstellen</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="nb">New-ADGroup</span> <span class="n">-Name</span> <span class="s2">&quot;GG_Vertrieb&quot;</span> <span class="n">-GroupScope</span> <span class="n">Global</span> <span class="n">-GroupCategory</span> <span class="n">Security</span>
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="nb">New-ADGroup</span> <span class="n">-Name</span> <span class="s2">&quot;DL_Vertrieb_Lesen&quot;</span> <span class="n">-GroupScope</span> <span class="n">DomainLocal</span> <span class="n">-GroupCategory</span> <span class="n">Security</span>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="nb">New-ADGroup</span> <span class="n">-Name</span> <span class="s2">&quot;DL_Vertrieb_Ändern&quot;</span> <span class="n">-GroupScope</span> <span class="n">DomainLocal</span> <span class="n">-GroupCategory</span> <span class="n">Security</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="c"># Verschachtelung</span>
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a><span class="nb">Add-ADGroupMember</span> <span class="n">-Identity</span> <span class="s2">&quot;DL_Vertrieb_Lesen&quot;</span> <span class="n">-Members</span> <span class="s2">&quot;GG_Vertrieb&quot;</span>
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a><span class="c"># NTFS-Berechtigung setzen</span>
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a><span class="nv">$acl</span> <span class="p">=</span> <span class="nb">Get-Acl</span> <span class="s2">&quot;D:\Freigaben\Vertrieb&quot;</span>
+<a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a><span class="nv">$readRule</span> <span class="p">=</span> <span class="nb">New-Object</span> <span class="n">System</span><span class="p">.</span><span class="n">Security</span><span class="p">.</span><span class="n">AccessControl</span><span class="p">.</span><span class="n">FileSystemAccessRule</span><span class="p">(</span>
+<a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a>    <span class="s2">&quot;TRAINING\DL_Vertrieb_Lesen&quot;</span><span class="p">,</span> <span class="s2">&quot;ReadAndExecute&quot;</span><span class="p">,</span> 
+<a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a>    <span class="s2">&quot;ContainerInherit,ObjectInherit&quot;</span><span class="p">,</span> <span class="s2">&quot;None&quot;</span><span class="p">,</span> <span class="s2">&quot;Allow&quot;</span><span class="p">)</span>
+<a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a><span class="nv">$acl</span><span class="p">.</span><span class="n">AddAccessRule</span><span class="p">(</span><span class="nv">$readRule</span><span class="p">)</span>
+<a id="__codelineno-5-15" name="__codelineno-5-15" href="#__codelineno-5-15"></a><span class="nb">Set-Acl</span> <span class="s2">&quot;D:\Freigaben\Vertrieb&quot;</span> <span class="nv">$acl</span>
+</code></pre></div>
 </details>
 <hr />
-<p>Weiter zu <a href="../modul-13-vpn/">Modul 13 – VPN</a> →</p>
+<p>Weiter zu <a href="../modul-17-dfs/">Modul 17 – DFS</a> →</p>
 
 
 
@@ -1585,7 +1658,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Fußzeile" >
         
           
-          <a href="../modul-11-iis/" class="md-footer__link md-footer__link--prev" aria-label="Zurück: Modul 11 – Webserver IIS">
+          <a href="../modul-15-freigaben/" class="md-footer__link md-footer__link--prev" aria-label="Zurück: Modul 15 – Dateifreigaben">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1595,20 +1668,20 @@
                 Zurück
               </span>
               <div class="md-ellipsis">
-                Modul 11 – Webserver IIS
+                Modul 15 – Dateifreigaben
               </div>
             </div>
           </a>
         
         
           
-          <a href="../modul-13-vpn/" class="md-footer__link md-footer__link--next" aria-label="Weiter: Modul 13 – VPN">
+          <a href="../modul-17-dfs/" class="md-footer__link md-footer__link--next" aria-label="Weiter: Modul 17 – DFS">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Weiter
               </span>
               <div class="md-ellipsis">
-                Modul 13 – VPN
+                Modul 17 – DFS
               </div>
             </div>
             <div class="md-footer__button md-icon">
