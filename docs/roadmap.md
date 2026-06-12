@@ -81,12 +81,12 @@ Diese Roadmap zeigt den geplanten Aufbau aller Lernpfade. Module mit ✅ sind fe
 
 | Modul | Thema | Status |
 |-------|-------|--------|
-| 27 | PKI-Grundlagen: Zertifikate, Schlüsselpaare, Vertrauensketten | 📋 |
-| 28 | Enterprise CA: Stammzertifizierungsstelle installieren | 📋 |
-| 29 | Zertifikate ausstellen: Web-Enrollment, Auto-Enrollment | 📋 |
-| 30 | HTTPS: IIS-Website mit eigenem Zertifikat absichern | 📋 |
-| 31 | Zertifikat-Verwaltung: Sperrlisten (CRL), Renewal, Templates | 📋 |
-| 32 | Aufräumen: CA dokumentieren, Snapshots | 📋 |
+| 27 | PKI-Grundlagen: Zertifikate, Schlüsselpaare, Vertrauensketten | � |
+| 28 | Enterprise CA: Stammzertifizierungsstelle installieren | 📝 |
+| 29 | Zertifikate ausstellen: Web-Enrollment, Auto-Enrollment | 📝 |
+| 30 | HTTPS: IIS-Website mit eigenem Zertifikat absichern | 📝 |
+| 31 | Zertifikat-Verwaltung: Sperrlisten (CRL), Renewal, Templates | 📝 |
+| 32 | Aufräumen: CA dokumentieren, Snapshots | 📝 |
 
 **Ergebnis:** Eigene Enterprise CA, automatische Zertifikatverteilung, HTTPS auf allen internen Webseiten.
 

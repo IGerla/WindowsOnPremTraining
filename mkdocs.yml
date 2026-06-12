@@ -88,3 +88,10 @@ nav:
     - Modul 24 – Sicherheitsrichtlinien: modul-24-sicherheit.md
     - Modul 25 – Administrative Vorlagen: modul-25-admx.md
     - Modul 26 – Aufräumen: modul-26-aufräumen.md
+  - Lernpfad 5 – Zertifikate & PKI:
+    - Modul 27 – PKI-Grundlagen: modul-27-pki.md
+    - Modul 28 – Enterprise CA: modul-28-ca.md
+    - Modul 29 – Zertifikate ausstellen: modul-29-zertifikate.md
+    - Modul 30 – HTTPS: modul-30-https.md
+    - Modul 31 – Zertifikat-Verwaltung: modul-31-verwaltung.md
+    - Modul 32 – Aufräumen: modul-32-aufräumen.md

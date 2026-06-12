@@ -79,6 +79,16 @@ Nach Abschluss von Lernpfad 1 hast du folgendes selbst aufgebaut:
 | 🔒 | Sicherheitsrichtlinien zentral erzwingen | Audit, Lockout, AppLocker |
 | 📄 | Hunderte Einstellungen über ADMX-Vorlagen konfigurieren | Central Store |
 
+## Was du in Lernpfad 5 baust
+
+| | Was | Womit |
+|---|---|---|
+| 🔐 | PKI-Konzepte verstehen (Schlüssel, Zertifikate, Vertrauensketten) | Theorie + certutil |
+| 🏢 | Eigene Zertifizierungsstelle betreiben | AD CS (Enterprise CA) |
+| 📨 | Zertifikate automatisch an alle Computer verteilen | Auto-Enrollment + GPO |
+| 🌐 | Interne Webseiten per HTTPS absichern | IIS + eigene Zertifikate |
+| 🛡️ | Zertifikate sperren und Lebenszyklus verwalten | CRL, Renewal, Templates |
+
 ---
 
 ## Übersicht der Module
@@ -129,6 +139,17 @@ Nach Abschluss von Lernpfad 1 hast du folgendes selbst aufgebaut:
 | [Modul 24](modul-24-sicherheit.md) | Sicherheitsrichtlinien: Passwort, Audit, AppLocker | 50 Min |
 | [Modul 25](modul-25-admx.md) | Administrative Vorlagen: Central Store, ADMX | 40 Min |
 | [Modul 26](modul-26-aufräumen.md) | Aufräumen: GPO-Dokumentation, RSoP | 15 Min |
+
+### Lernpfad 5 – Zertifikate & PKI
+
+| Modul | Thema | Dauer |
+|-------|-------|-------|
+| [Modul 27](modul-27-pki.md) | PKI-Grundlagen: Schlüssel, Zertifikate, Vertrauensketten | 45 Min |
+| [Modul 28](modul-28-ca.md) | Enterprise CA: Zertifizierungsstelle installieren | 50 Min |
+| [Modul 29](modul-29-zertifikate.md) | Zertifikate ausstellen: Vorlagen, Auto-Enrollment | 50 Min |
+| [Modul 30](modul-30-https.md) | HTTPS: Webseiten mit eigenem Zertifikat absichern | 40 Min |
+| [Modul 31](modul-31-verwaltung.md) | Zertifikat-Verwaltung: Renewal, CRL, Troubleshooting | 45 Min |
+| [Modul 32](modul-32-aufräumen.md) | Aufräumen: PKI-Dokumentation, Snapshots | 15 Min |
 
 ---
 

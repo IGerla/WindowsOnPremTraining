@@ -68,6 +68,17 @@ Azubis, Praktikanten und angehende Windows-Admins ohne Server-Erfahrung. Du arbe
 | 25 | Administrative Vorlagen: Central Store, ADMX/ADML |
 | 26 | Aufräumen: GPO-Dokumentation, Resultant Set of Policy |
 
+### Lernpfad 5 – Zertifikate & PKI
+
+| Modul | Thema |
+|-------|-------|
+| 27 | PKI-Grundlagen: Schlüssel, Zertifikate, Vertrauensketten |
+| 28 | Enterprise CA: Zertifizierungsstelle installieren |
+| 29 | Zertifikate ausstellen: Vorlagen, Auto-Enrollment |
+| 30 | HTTPS: Webseiten mit eigenem Zertifikat absichern |
+| 31 | Zertifikat-Verwaltung: Renewal, CRL, Troubleshooting |
+| 32 | Aufräumen: PKI-Dokumentation, Snapshots |
+
 ## Lokal starten
 
 ```bash
