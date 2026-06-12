@@ -47,12 +47,12 @@ Diese Roadmap zeigt den geplanten Aufbau aller Lernpfade. Module mit ✅ sind fe
 
 | Modul | Thema | Status |
 |-------|-------|--------|
-| 15 | Dateifreigaben: SMB-Shares erstellen und Berechtigungen setzen | 📋 |
-| 16 | NTFS-Berechtigungen: Vererbung, effektive Rechte, Best Practices | 📋 |
-| 17 | DFS: Distributed File System für einheitliche Pfade | 📋 |
-| 18 | Quotas & FSRM: Speicherplatz begrenzen, Datei-Screening | 📋 |
-| 19 | Druckserver: Drucker zentral verwalten und per GPO verteilen | 📋 |
-| 20 | Aufräumen: Freigaben dokumentieren, Snapshots | 📋 |
+| 15 | Dateifreigaben: SMB-Shares erstellen und Berechtigungen setzen | � |
+| 16 | NTFS-Berechtigungen: Vererbung, effektive Rechte, Best Practices | 📝 |
+| 17 | DFS: Distributed File System für einheitliche Pfade | 📝 |
+| 18 | Quotas & FSRM: Speicherplatz begrenzen, Datei-Screening | 📝 |
+| 19 | Druckserver: Drucker zentral verwalten und per GPO verteilen | 📝 |
+| 20 | Aufräumen: Freigaben dokumentieren, Snapshots | 📝 |
 
 **Ergebnis:** `SRV-FS01` als Fileserver mit DFS, NTFS-Berechtigungen, Quotas und zentraler Druckerverwaltung.
 

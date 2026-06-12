@@ -86,4 +86,4 @@ Du hast in diesem Lernpfad:
 
 ---
 
-*Weiter geht's mit Lernpfad 3 – Fileserver & Drucken (in Vorbereitung)*
+Weiter zu [Modul 15 – Dateifreigaben](modul-15-freigaben.md) →

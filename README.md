@@ -46,6 +46,17 @@ Azubis, Praktikanten und angehende Windows-Admins ohne Server-Erfahrung. Du arbe
 | 13 | VPN: Remote-Zugriff mit RRAS einrichten |
 | 14 | Aufräumen: Netzwerk-Dokumentation, Snapshots |
 
+### Lernpfad 3 – Fileserver & Drucken
+
+| Modul | Thema |
+|-------|-------|
+| 15 | Dateifreigaben: SMB-Shares erstellen und Berechtigungen setzen |
+| 16 | NTFS-Berechtigungen: Vererbung, effektive Rechte, AGDLP |
+| 17 | DFS: Einheitliche Pfade mit DFS-Namespaces |
+| 18 | Quotas & FSRM: Speicherkontingente, Datei-Screening |
+| 19 | Druckserver: Drucker zentral verwalten und per GPO verteilen |
+| 20 | Aufräumen: Freigaben dokumentieren, Snapshots |
+
 ## Lokal starten
 
 ```bash

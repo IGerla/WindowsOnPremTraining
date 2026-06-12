@@ -74,3 +74,10 @@ nav:
     - Modul 12 – NPS & RADIUS: modul-12-nps.md
     - Modul 13 – VPN: modul-13-vpn.md
     - Modul 14 – Aufräumen: modul-14-aufräumen.md
+  - Lernpfad 3 – Fileserver & Drucken:
+    - Modul 15 – Dateifreigaben: modul-15-freigaben.md
+    - Modul 16 – NTFS-Berechtigungen: modul-16-ntfs.md
+    - Modul 17 – DFS: modul-17-dfs.md
+    - Modul 18 – Quotas & FSRM: modul-18-fsrm.md
+    - Modul 19 – Druckserver: modul-19-druckserver.md
+    - Modul 20 – Aufräumen: modul-20-aufräumen.md

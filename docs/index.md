@@ -59,6 +59,16 @@ Nach Abschluss von Lernpfad 1 hast du folgendes selbst aufgebaut:
 | 🔐 | Zentrale Netzwerk-Authentifizierung eingerichtet | NPS / RADIUS |
 | 🔒 | VPN-Zugang für Remote-Mitarbeiter | RRAS + NPS |
 
+## Was du in Lernpfad 3 baust
+
+| | Was | Womit |
+|---|---|---|
+| 📁 | Zentrale Dateifreigaben mit Zugriffskontrolle | SMB + Freigabe-Berechtigungen |
+| 🔑 | Fein granulare Dateiberechtigungen nach AGDLP | NTFS-Berechtigungen |
+| 🗂️ | Einheitliche Pfade für alle Freigaben | DFS-Namespaces |
+| 📊 | Speicherkontingente und Dateitypfilter | FSRM (Quotas + Screening) |
+| 🖨️ | Zentrale Druckerverwaltung mit automatischer Verteilung | Druckserver + GPO |
+
 ---
 
 ## Übersicht der Module
@@ -87,6 +97,17 @@ Nach Abschluss von Lernpfad 1 hast du folgendes selbst aufgebaut:
 | [Modul 12](modul-12-nps.md) | NPS & RADIUS: Zentrale Netzwerkauthentifizierung | 50 Min |
 | [Modul 13](modul-13-vpn.md) | VPN: Remote-Zugriff mit RRAS einrichten | 50 Min |
 | [Modul 14](modul-14-aufräumen.md) | Aufräumen: Netzwerk-Dokumentation, Snapshots | 15 Min |
+
+### Lernpfad 3 – Fileserver & Drucken
+
+| Modul | Thema | Dauer |
+|-------|-------|-------|
+| [Modul 15](modul-15-freigaben.md) | Dateifreigaben: SMB-Shares, Berechtigungen | 50 Min |
+| [Modul 16](modul-16-ntfs.md) | NTFS-Berechtigungen: Vererbung, AGDLP | 50 Min |
+| [Modul 17](modul-17-dfs.md) | DFS: Einheitliche Pfade, Namespaces | 40 Min |
+| [Modul 18](modul-18-fsrm.md) | Quotas & FSRM: Speicherkontingente, Datei-Screening | 40 Min |
+| [Modul 19](modul-19-druckserver.md) | Druckserver: Drucker verwalten, GPO-Verteilung | 45 Min |
+| [Modul 20](modul-20-aufräumen.md) | Aufräumen: Freigaben dokumentieren, Snapshots | 15 Min |
 
 ---
 
