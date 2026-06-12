@@ -79,6 +79,36 @@ Azubis, Praktikanten und angehende Windows-Admins ohne Server-Erfahrung. Du arbe
 | 31 | Zertifikat-Verwaltung: Renewal, CRL, Troubleshooting |
 | 32 | Aufräumen: PKI-Dokumentation, Snapshots |
 
+### Lernpfad 6 – Hochverfügbarkeit
+
+| Modul | Thema |
+|-------|-------|
+| 33 | Storage Spaces: Speicherpools, Mirror, Parity |
+| 34 | Failover Cluster: Grundlagen, Quorum, Heartbeat |
+| 35 | Cluster aufbauen: iSCSI Shared Storage, File Share Witness |
+| 36 | Hochverfügbarer Fileserver: Cluster-Rolle, HA-Freigaben |
+| 37 | Hyper-V Replica: VMs replizieren, Disaster Recovery |
+| 38 | Aufräumen: HA-Dokumentation, Snapshots |
+
+### Lernpfad 7 – Monitoring & Backup
+
+| Modul | Thema |
+|-------|-------|
+| 39 | Event Viewer: Protokolle lesen, filtern, Event-IDs |
+| 40 | Performance Monitor: Baselines, Data Collector Sets |
+| 41 | Windows Admin Center: Zentrale Web-Verwaltung |
+| 42 | Windows Server Backup: Sicherung und Wiederherstellung |
+| 43 | Aufräumen: Monitoring-Dokumentation, Snapshots |
+
+### Lernpfad 8 – Abschlussprojekte
+
+| Modul | Thema |
+|-------|-------|
+| 44 | Projekt: Neue Niederlassung (komplette Infrastruktur aufbauen) |
+| 45 | Projekt: Migration (Server auf neue Hardware umziehen) |
+| 46 | Projekt: Troubleshooting (Fehler in kaputten Umgebungen finden) |
+| 47 | Abschluss: Dokumentation, Zertifizierungswege, Azure-Ausblick |
+
 ## Lokal starten
 
 ```bash

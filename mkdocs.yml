@@ -95,3 +95,21 @@ nav:
     - Modul 30 – HTTPS: modul-30-https.md
     - Modul 31 – Zertifikat-Verwaltung: modul-31-verwaltung.md
     - Modul 32 – Aufräumen: modul-32-aufräumen.md
+  - Lernpfad 6 – Hochverfügbarkeit:
+    - Modul 33 – Storage Spaces: modul-33-storage.md
+    - Modul 34 – Failover Cluster Grundlagen: modul-34-cluster.md
+    - Modul 35 – Cluster aufbauen: modul-35-cluster-aufbau.md
+    - Modul 36 – Hochverfügbarer Fileserver: modul-36-ha-fileserver.md
+    - Modul 37 – Hyper-V Replica: modul-37-replica.md
+    - Modul 38 – Aufräumen: modul-38-aufräumen.md
+  - Lernpfad 7 – Monitoring & Backup:
+    - Modul 39 – Event Viewer: modul-39-eventviewer.md
+    - Modul 40 – Performance Monitor: modul-40-perfmon.md
+    - Modul 41 – Windows Admin Center: modul-41-wac.md
+    - Modul 42 – Windows Server Backup: modul-42-backup.md
+    - Modul 43 – Aufräumen: modul-43-aufräumen.md
+  - Lernpfad 8 – Abschlussprojekte:
+    - Modul 44 – Projekt Neue Niederlassung: modul-44-projekt-niederlassung.md
+    - Modul 45 – Projekt Migration: modul-45-projekt-migration.md
+    - Modul 46 – Projekt Troubleshooting: modul-46-projekt-troubleshooting.md
+    - Modul 47 – Abschluss & Ausblick: modul-47-abschluss.md

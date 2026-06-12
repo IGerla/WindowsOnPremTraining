@@ -98,12 +98,12 @@ Diese Roadmap zeigt den geplanten Aufbau aller Lernpfade. Module mit ✅ sind fe
 
 | Modul | Thema | Status |
 |-------|-------|--------|
-| 33 | Storage Spaces: Speicherpools und virtuelle Festplatten | 📋 |
-| 34 | Failover Cluster: Grundlagen, Quorum, Cluster-Rollen | 📋 |
-| 35 | Cluster aufbauen: Zwei-Knoten-Cluster mit File Share Witness | 📋 |
-| 36 | Cluster-Ressourcen: Hochverfügbarer Fileserver | 📋 |
-| 37 | Hyper-V Replica: VMs zwischen Hosts replizieren | 📋 |
-| 38 | Aufräumen: Cluster-Dokumentation, Snapshots | 📋 |
+| 33 | Storage Spaces: Speicherpools und virtuelle Festplatten | � |
+| 34 | Failover Cluster: Grundlagen, Quorum, Cluster-Rollen | 📝 |
+| 35 | Cluster aufbauen: Zwei-Knoten-Cluster mit File Share Witness | 📝 |
+| 36 | Cluster-Ressourcen: Hochverfügbarer Fileserver | 📝 |
+| 37 | Hyper-V Replica: VMs zwischen Hosts replizieren | 📝 |
+| 38 | Aufräumen: Cluster-Dokumentation, Snapshots | 📝 |
 
 **Ergebnis:** Zwei-Knoten-Failover-Cluster mit hochverfügbarem Fileserver und Hyper-V Replica.
 
@@ -115,11 +115,11 @@ Diese Roadmap zeigt den geplanten Aufbau aller Lernpfade. Module mit ✅ sind fe
 
 | Modul | Thema | Status |
 |-------|-------|--------|
-| 39 | Event Viewer: Ereignisprotokolle lesen und filtern | 📋 |
-| 40 | Performance Monitor: Leistungsindikatoren, Datencollectors | 📋 |
-| 41 | Windows Admin Center: Moderne Weboberfläche für Server | 📋 |
-| 42 | Windows Server Backup: Sicherung und Wiederherstellung | 📋 |
-| 43 | Aufräumen: Monitoring-Dokumentation, Snapshots | 📋 |
+| 39 | Event Viewer: Ereignisprotokolle lesen und filtern | � |
+| 40 | Performance Monitor: Leistungsindikatoren, Datencollectors | 📝 |
+| 41 | Windows Admin Center: Moderne Weboberfläche für Server | 📝 |
+| 42 | Windows Server Backup: Sicherung und Wiederherstellung | 📝 |
+| 43 | Aufräumen: Monitoring-Dokumentation, Snapshots | 📝 |
 
 **Ergebnis:** Zentrales Monitoring mit Alarmen, Performance-Baselines und getestete Backup/Restore-Prozedur.
 
@@ -131,10 +131,10 @@ Diese Roadmap zeigt den geplanten Aufbau aller Lernpfade. Module mit ✅ sind fe
 
 | Modul | Thema | Status |
 |-------|-------|--------|
-| 44 | Projekt: Neue Niederlassung (komplette Serverlandschaft aufbauen) | 📋 |
-| 45 | Projekt: Migration (Bestehende Umgebung erweitern und migrieren) | 📋 |
-| 46 | Projekt: Troubleshooting (Fehler in einer kaputten Umgebung finden) | 📋 |
-| 47 | Abschluss: Dokumentation, Zertifizierungswege, Ausblick auf Azure | 📋 |
+| 44 | Projekt: Neue Niederlassung (komplette Serverlandschaft aufbauen) | � |
+| 45 | Projekt: Migration (Bestehende Umgebung erweitern und migrieren) | 📝 |
+| 46 | Projekt: Troubleshooting (Fehler in einer kaputten Umgebung finden) | 📝 |
+| 47 | Abschluss: Dokumentation, Zertifizierungswege, Ausblick auf Azure | 📝 |
 
 **Ergebnis:** Eigenständig geplante und umgesetzte Serverlandschaften, Troubleshooting-Kompetenz.
 

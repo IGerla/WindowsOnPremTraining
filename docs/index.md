@@ -89,6 +89,34 @@ Nach Abschluss von Lernpfad 1 hast du folgendes selbst aufgebaut:
 | 🌐 | Interne Webseiten per HTTPS absichern | IIS + eigene Zertifikate |
 | 🛡️ | Zertifikate sperren und Lebenszyklus verwalten | CRL, Renewal, Templates |
 
+## Was du in Lernpfad 6 baust
+
+| | Was | Womit |
+|---|---|---|
+| 💾 | Festplatten zu ausfallsicheren Storage Pools zusammenfassen | Storage Spaces |
+| 🔄 | Einen Zwei-Knoten-Failover-Cluster aufbauen | Failover Clustering |
+| 🗄️ | Shared Storage über das Netzwerk bereitstellen | iSCSI |
+| 📂 | Einen hochverfügbaren Fileserver betreiben | Cluster-Fileserver-Rolle |
+| 🌐 | VMs für Disaster Recovery auf zweiten Host replizieren | Hyper-V Replica |
+
+## Was du in Lernpfad 7 baust
+
+| | Was | Womit |
+|---|---|---|
+| 📋 | Ereignisprotokolle effektiv auswerten und filtern | Event Viewer + PowerShell |
+| 📊 | Leistungsdaten sammeln und Engpässe erkennen | Performance Monitor |
+| 🖥️ | Alle Server zentral über den Browser verwalten | Windows Admin Center |
+| 💾 | Automatische Backups mit gestestetem Restore | Windows Server Backup |
+
+## Was du in Lernpfad 8 baust
+
+| | Was | Womit |
+|---|---|---|
+| 🏗️ | Komplette Infrastruktur für einen neuen Standort planen und aufbauen | Alles aus LP 1–7 |
+| 🚚 | Einen bestehenden Server auf neue Hardware migrieren | Robocopy, IP-Tausch |
+| 🔍 | Fehler in einer kaputten Umgebung systematisch finden und beheben | Troubleshooting-Tools |
+| 🎓 | Nächste Schritte: Zertifizierungen und Azure-Ausblick | Dokumentation |
+
 ---
 
 ## Übersicht der Module
@@ -150,6 +178,36 @@ Nach Abschluss von Lernpfad 1 hast du folgendes selbst aufgebaut:
 | [Modul 30](modul-30-https.md) | HTTPS: Webseiten mit eigenem Zertifikat absichern | 40 Min |
 | [Modul 31](modul-31-verwaltung.md) | Zertifikat-Verwaltung: Renewal, CRL, Troubleshooting | 45 Min |
 | [Modul 32](modul-32-aufräumen.md) | Aufräumen: PKI-Dokumentation, Snapshots | 15 Min |
+
+### Lernpfad 6 – Hochverfügbarkeit
+
+| Modul | Thema | Dauer |
+|-------|-------|-------|
+| [Modul 33](modul-33-storage.md) | Storage Spaces: Pools, Mirror, Parity | 50 Min |
+| [Modul 34](modul-34-cluster.md) | Failover Cluster: Grundlagen, Quorum, Heartbeat | 45 Min |
+| [Modul 35](modul-35-cluster-aufbau.md) | Cluster aufbauen: iSCSI, File Share Witness | 60 Min |
+| [Modul 36](modul-36-ha-fileserver.md) | Hochverfügbarer Fileserver: Cluster-Rolle | 45 Min |
+| [Modul 37](modul-37-replica.md) | Hyper-V Replica: Disaster Recovery | 50 Min |
+| [Modul 38](modul-38-aufräumen.md) | Aufräumen: HA-Dokumentation, Snapshots | 15 Min |
+
+### Lernpfad 7 – Monitoring & Backup
+
+| Modul | Thema | Dauer |
+|-------|-------|-------|
+| [Modul 39](modul-39-eventviewer.md) | Event Viewer: Protokolle, Filter, Event-IDs | 45 Min |
+| [Modul 40](modul-40-perfmon.md) | Performance Monitor: Baselines, Data Collectors | 45 Min |
+| [Modul 41](modul-41-wac.md) | Windows Admin Center: Zentrale Web-Verwaltung | 40 Min |
+| [Modul 42](modul-42-backup.md) | Windows Server Backup: Sicherung und Restore | 50 Min |
+| [Modul 43](modul-43-aufräumen.md) | Aufräumen: Monitoring-Dokumentation, Snapshots | 15 Min |
+
+### Lernpfad 8 – Abschlussprojekte
+
+| Modul | Thema | Dauer |
+|-------|-------|-------|
+| [Modul 44](modul-44-projekt-niederlassung.md) | Projekt: Neue Niederlassung aufbauen | 120 Min |
+| [Modul 45](modul-45-projekt-migration.md) | Projekt: Server-Migration durchführen | 90 Min |
+| [Modul 46](modul-46-projekt-troubleshooting.md) | Projekt: Troubleshooting – Fehler finden | 90 Min |
+| [Modul 47](modul-47-abschluss.md) | Abschluss: Dokumentation, Zertifizierungen, Ausblick | 30 Min |
 
 ---
 
