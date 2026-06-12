@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://igerla.github.io/WindowsOnPremTraining/modul-12-nps/">
+        <link rel="canonical" href="https://igerla.github.io/WindowsOnPremTraining/modul-21-gpo/">
       
       
-        <link rel="prev" href="../modul-11-iis/">
+        <link rel="prev" href="../modul-20-aufr%C3%A4umen/">
       
       
-        <link rel="next" href="../modul-13-vpn/">
+        <link rel="next" href="../modul-22-desktop/">
       
       
         
@@ -27,7 +27,7 @@
     
     
       
-        <title>Modul 12 – NPS & RADIUS - Windows On-Prem Einstiegstraining</title>
+        <title>Modul 21 – GPO-Grundlagen - Windows On-Prem Einstiegstraining</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#modul-12-nps-radius" class="md-skip">
+        <a href="#modul-21-gpo-grundlagen" class="md-skip">
           Zum Inhalt
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Modul 12 – NPS & RADIUS
+              Modul 21 – GPO-Grundlagen
             
           </span>
         </div>
@@ -618,20 +618,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -652,7 +650,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             
@@ -779,37 +777,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Modul 12 – NPS & RADIUS
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../modul-12-nps/" class="md-nav__link">
         
   
   
@@ -825,148 +796,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Inhaltsverzeichnis
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#lernziele" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Lernziele
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#hintergrund-radius-zentraler-netzwerk-tursteher" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Hintergrund: RADIUS – zentraler Netzwerk-Türsteher
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Hintergrund: RADIUS – zentraler Netzwerk-Türsteher">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#typische-einsatzszenarien" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Typische Einsatzszenarien
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#schritt-fur-schritt-nps-installieren" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt für Schritt: NPS installieren
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Schritt für Schritt: NPS installieren">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#schritt-1-nps-rolle-installieren" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 1: NPS-Rolle installieren
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#schritt-2-nps-konsole-offnen" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 2: NPS-Konsole öffnen
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#schritt-3-nps-im-active-directory-registrieren" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 3: NPS im Active Directory registrieren
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#schritt-4-radius-client-hinzufugen" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 4: RADIUS-Client hinzufügen
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#schritt-5-netzwerkrichtlinie-erstellen" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Schritt 5: Netzwerkrichtlinie erstellen
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#challenge" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Challenge
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1261,18 +1090,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
         
           
           <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
@@ -1293,7 +1124,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_7">
             <span class="md-nav__icon md-icon"></span>
             
@@ -1308,10 +1139,37 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../modul-21-gpo/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Modul 21 – GPO-Grundlagen
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -1327,6 +1185,198 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#lernziele" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lernziele
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hintergrund-group-policy-eine-regel-fur-alle" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hintergrund: Group Policy – eine Regel für alle
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Hintergrund: Group Policy – eine Regel für alle">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#lsdou-verarbeitungsreihenfolge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        LSDOU – Verarbeitungsreihenfolge
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#computer-vs-benutzerkonfiguration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Computer- vs. Benutzerkonfiguration
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schritt-fur-schritt-erste-gpo-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt für Schritt: Erste GPO erstellen
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Schritt für Schritt: Erste GPO erstellen">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#schritt-1-gruppenrichtlinienverwaltung-offnen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 1: Gruppenrichtlinienverwaltung öffnen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-2-neue-gpo-erstellen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 2: Neue GPO erstellen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-3-gpo-bearbeiten" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 3: GPO bearbeiten
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-4-gpo-mit-einer-ou-verknupfen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 4: GPO mit einer OU verknüpfen
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#schritt-5-gpo-testen" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Schritt 5: GPO testen
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gpo-vererbung-und-blockierung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GPO-Vererbung und Blockierung
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GPO-Vererbung und Blockierung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vererbung-deaktivieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vererbung deaktivieren
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erzwingen-enforced" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erzwingen (Enforced)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#challenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Challenge
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -1517,22 +1567,33 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#hintergrund-radius-zentraler-netzwerk-tursteher" class="md-nav__link">
+  <a href="#hintergrund-group-policy-eine-regel-fur-alle" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Hintergrund: RADIUS – zentraler Netzwerk-Türsteher
+        Hintergrund: Group Policy – eine Regel für alle
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Hintergrund: RADIUS – zentraler Netzwerk-Türsteher">
+    <nav class="md-nav" aria-label="Hintergrund: Group Policy – eine Regel für alle">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#typische-einsatzszenarien" class="md-nav__link">
+  <a href="#lsdou-verarbeitungsreihenfolge" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Typische Einsatzszenarien
+        LSDOU – Verarbeitungsreihenfolge
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#computer-vs-benutzerkonfiguration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Computer- vs. Benutzerkonfiguration
       
     </span>
   </a>
@@ -1545,22 +1606,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#schritt-fur-schritt-nps-installieren" class="md-nav__link">
+  <a href="#schritt-fur-schritt-erste-gpo-erstellen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt für Schritt: NPS installieren
+        Schritt für Schritt: Erste GPO erstellen
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Schritt für Schritt: NPS installieren">
+    <nav class="md-nav" aria-label="Schritt für Schritt: Erste GPO erstellen">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#schritt-1-nps-rolle-installieren" class="md-nav__link">
+  <a href="#schritt-1-gruppenrichtlinienverwaltung-offnen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt 1: NPS-Rolle installieren
+        Schritt 1: Gruppenrichtlinienverwaltung öffnen
       
     </span>
   </a>
@@ -1568,10 +1629,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#schritt-2-nps-konsole-offnen" class="md-nav__link">
+  <a href="#schritt-2-neue-gpo-erstellen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt 2: NPS-Konsole öffnen
+        Schritt 2: Neue GPO erstellen
       
     </span>
   </a>
@@ -1579,10 +1640,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#schritt-3-nps-im-active-directory-registrieren" class="md-nav__link">
+  <a href="#schritt-3-gpo-bearbeiten" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt 3: NPS im Active Directory registrieren
+        Schritt 3: GPO bearbeiten
       
     </span>
   </a>
@@ -1590,10 +1651,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#schritt-4-radius-client-hinzufugen" class="md-nav__link">
+  <a href="#schritt-4-gpo-mit-einer-ou-verknupfen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt 4: RADIUS-Client hinzufügen
+        Schritt 4: GPO mit einer OU verknüpfen
       
     </span>
   </a>
@@ -1601,10 +1662,49 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#schritt-5-netzwerkrichtlinie-erstellen" class="md-nav__link">
+  <a href="#schritt-5-gpo-testen" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Schritt 5: Netzwerkrichtlinie erstellen
+        Schritt 5: GPO testen
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gpo-vererbung-und-blockierung" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GPO-Vererbung und Blockierung
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GPO-Vererbung und Blockierung">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vererbung-deaktivieren" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vererbung deaktivieren
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erzwingen-enforced" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Erzwingen (Enforced)
       
     </span>
   </a>
@@ -1647,129 +1747,183 @@
   
 
 
-<h1 id="modul-12-nps-radius">Modul 12 – NPS &amp; RADIUS</h1>
+<h1 id="modul-21-gpo-grundlagen">Modul 21 – GPO-Grundlagen</h1>
 <h2 id="lernziele">Lernziele</h2>
 <p>Nach diesem Modul kannst du:</p>
 <ul>
-<li>Erklären was RADIUS ist und warum zentrale Authentifizierung wichtig ist</li>
-<li>Den Network Policy Server (NPS) installieren und konfigurieren</li>
-<li>RADIUS-Clients (z.B. Switches, WLAN-APs) registrieren</li>
-<li>Netzwerkrichtlinien erstellen (wer darf was im Netzwerk?)</li>
-<li>Den Zusammenhang zwischen NPS, Active Directory und Netzwerkgeräten erklären</li>
+<li>Erklären was Group Policy Objects (GPOs) sind und warum sie unverzichtbar sind</li>
+<li>Die Verarbeitungsreihenfolge von GPOs erklären (LSDOU)</li>
+<li>Eine GPO erstellen, bearbeiten und mit einer OU verknüpfen</li>
+<li>Den Unterschied zwischen Computer- und Benutzerkonfiguration erklären</li>
+<li>GPO-Vererbung und -Blockierung verstehen</li>
+<li>Mit <code>gpresult</code> und <code>gpupdate</code> arbeiten</li>
 </ul>
 <hr />
-<h2 id="hintergrund-radius-zentraler-netzwerk-tursteher">Hintergrund: RADIUS – zentraler Netzwerk-Türsteher</h2>
-<p>Stell dir vor, du hast 20 WLAN-Access-Points und 5 Switches mit Port-Authentifizierung. Jeder soll prüfen, ob ein Benutzer ins Netzwerk darf. Ohne RADIUS müsstest du auf <strong>jedem Gerät einzeln</strong> Benutzerkonten pflegen.</p>
-<p><strong>RADIUS (Remote Authentication Dial-In User Service)</strong> löst das Problem: Alle Netzwerkgeräte fragen einen zentralen Server – den <strong>NPS (Network Policy Server)</strong> – und der prüft gegen Active Directory.</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Benutzer → WLAN-AP → &quot;Darf Max rein?&quot; → NPS → Active Directory
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>                                            ↓
-<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>                              &quot;Ja, Max ist in Gruppe &#39;WLAN-User&#39;&quot;
-<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>                                            ↓
-<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>                    WLAN-AP ← &quot;Zugriff gewährt&quot; ← NPS
+<h2 id="hintergrund-group-policy-eine-regel-fur-alle">Hintergrund: Group Policy – eine Regel für alle</h2>
+<p>Stell dir vor, du hast 200 PCs und auf jedem soll:</p>
+<ul>
+<li>Das Hintergrundbild die Firmenfarben zeigen</li>
+<li>USB-Sticks gesperrt sein</li>
+<li>Das Passwort mindestens 12 Zeichen haben</li>
+<li>Ein bestimmter Drucker installiert sein</li>
+</ul>
+<p>Ohne Group Policy: 200 × manuell konfigurieren. Mit Group Policy: <strong>einmal definieren, überall anwenden</strong>.</p>
+<p><strong>Group Policy Objects (GPOs)</strong> sind Regelpakete, die du zentral im Active Directory erstellst und auf Benutzer oder Computer anwendest.</p>
+<h3 id="lsdou-verarbeitungsreihenfolge">LSDOU – Verarbeitungsreihenfolge</h3>
+<p>GPOs werden in dieser Reihenfolge verarbeitet (spätere überschreiben frühere):</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>L – Lokale Richtlinie (auf jedem PC)
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>S – Site (Standort-GPO, selten genutzt)
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>D – Domain (Domänen-GPO, gilt für alle)
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>OU – Organizational Unit (OU-GPOs, am spezifischsten)
 </code></pre></div>
-<h3 id="typische-einsatzszenarien">Typische Einsatzszenarien</h3>
 <table>
 <thead>
 <tr>
-<th>Szenario</th>
-<th>Was passiert</th>
+<th>Ebene</th>
+<th>Beispiel</th>
+<th>Priorität</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>WLAN-Anmeldung (802.1X)</td>
-<td>Laptop sendet Domänen-Credentials → NPS prüft → Zugriff</td>
+<td>Lokal</td>
+<td>Lokale Sicherheitsrichtlinie auf dem PC</td>
+<td>Niedrigste</td>
 </tr>
 <tr>
-<td>Switch-Port-Security</td>
-<td>PC steckt Kabel ein → Switch fragt NPS → Port wird freigeschaltet</td>
+<td>Site</td>
+<td>Standort "Frankfurt" – z.B. Proxy-Einstellungen</td>
+<td>↓</td>
 </tr>
 <tr>
-<td>VPN-Zugang</td>
-<td>Benutzer wählt sich ein → VPN-Server fragt NPS → Tunnel wird aufgebaut</td>
+<td>Domain</td>
+<td>Domäne "training.local" – z.B. Passwort-Policy</td>
+<td>↓</td>
+</tr>
+<tr>
+<td>OU</td>
+<td>OU "IT-Abteilung" – z.B. Admin-Tools installieren</td>
+<td>Höchste</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition tip">
+<p class="admonition-title">Merkhilfe: LSDOU</p>
+<p><strong>L</strong>okale → <strong>S</strong>ite → <strong>D</strong>omain → <strong>O</strong>rganizational <strong>U</strong>nit. Die letzte gewinnt!</p>
+</div>
+<h3 id="computer-vs-benutzerkonfiguration">Computer- vs. Benutzerkonfiguration</h3>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Computerkonfiguration</th>
+<th>Benutzerkonfiguration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Gilt für</strong></td>
+<td>Den Computer (egal wer sich anmeldet)</td>
+<td>Den Benutzer (egal an welchem PC)</td>
+</tr>
+<tr>
+<td><strong>Beispiele</strong></td>
+<td>Firewall-Regeln, Windows Update, Dienste</td>
+<td>Laufwerke mappen, Drucker, Startmenü</td>
+</tr>
+<tr>
+<td><strong>Wann angewendet</strong></td>
+<td>Beim Hochfahren</td>
+<td>Bei der Anmeldung</td>
 </tr>
 </tbody>
 </table>
 <hr />
-<h2 id="schritt-fur-schritt-nps-installieren">Schritt für Schritt: NPS installieren</h2>
-<h3 id="schritt-1-nps-rolle-installieren">Schritt 1: NPS-Rolle installieren</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nb">Install-WindowsFeature</span> <span class="n">NPAS</span> <span class="n">-IncludeManagementTools</span>
+<h2 id="schritt-fur-schritt-erste-gpo-erstellen">Schritt für Schritt: Erste GPO erstellen</h2>
+<h3 id="schritt-1-gruppenrichtlinienverwaltung-offnen">Schritt 1: Gruppenrichtlinienverwaltung öffnen</h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">gpmc</span><span class="p">.</span><span class="n">msc</span>
 </code></pre></div>
-<h3 id="schritt-2-nps-konsole-offnen">Schritt 2: NPS-Konsole öffnen</h3>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="n">nps</span><span class="p">.</span><span class="n">msc</span>
+<p>Oder: <strong>Server Manager</strong> → <strong>Tools</strong> → <strong>Gruppenrichtlinienverwaltung</strong></p>
+<h3 id="schritt-2-neue-gpo-erstellen">Schritt 2: Neue GPO erstellen</h3>
+<ol>
+<li>Erweitere <strong>Gesamtstruktur</strong> → <strong>Domänen</strong> → <strong>training.local</strong></li>
+<li>Rechtsklick auf <strong>Gruppenrichtlinienobjekte</strong> → <strong>Neu</strong></li>
+<li>Name: <code>Desktop – Firmenhintergrund</code></li>
+<li>Die GPO ist erstellt, aber noch <strong>nicht verknüpft</strong> (wirkt also noch nicht!)</li>
+</ol>
+<h3 id="schritt-3-gpo-bearbeiten">Schritt 3: GPO bearbeiten</h3>
+<ol>
+<li>Rechtsklick auf die neue GPO → <strong>Bearbeiten</strong></li>
+<li>Navigiere zu: <strong>Benutzerkonfiguration</strong> → <strong>Richtlinien</strong> → <strong>Administrative Vorlagen</strong> → <strong>Desktop</strong> → <strong>Desktop</strong></li>
+<li>Doppelklick auf <strong>Desktophintergrund</strong></li>
+<li>Wähle <strong>Aktiviert</strong></li>
+<li>Pfad: <code>\\training.local\dfs\Vorlagen\wallpaper.jpg</code></li>
+<li>Stil: <strong>Gestreckt</strong></li>
+<li><strong>OK</strong></li>
+</ol>
+<h3 id="schritt-4-gpo-mit-einer-ou-verknupfen">Schritt 4: GPO mit einer OU verknüpfen</h3>
+<ol>
+<li>Zurück in der Gruppenrichtlinienverwaltung</li>
+<li>Rechtsklick auf die Ziel-OU (z.B. <code>Benutzer</code>) → <strong>Vorhandenes Gruppenrichtlinienobjekt verknüpfen...</strong></li>
+<li>Wähle <code>Desktop – Firmenhintergrund</code> → <strong>OK</strong></li>
+</ol>
+<h3 id="schritt-5-gpo-testen">Schritt 5: GPO testen</h3>
+<p>Auf einem Client:</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c"># GPO-Update erzwingen (statt auf nächsten Neustart zu warten)</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="n">gpupdate</span> <span class="p">/</span><span class="n">force</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="c"># Ergebnis prüfen: Welche GPOs wurden angewendet?</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="n">gpresult</span> <span class="p">/</span><span class="nb">r</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="c"># Detaillierter HTML-Report:</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="n">gpresult</span> <span class="p">/</span><span class="nb">h </span><span class="n">C</span><span class="p">:\</span><span class="n">temp</span><span class="p">\</span><span class="n">gpo-report</span><span class="p">.</span><span class="n">html</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="nb">Start-Process</span> <span class="n">C</span><span class="p">:\</span><span class="n">temp</span><span class="p">\</span><span class="n">gpo-report</span><span class="p">.</span><span class="n">html</span>
 </code></pre></div>
-<p>Oder: <strong>Server Manager</strong> → <strong>Tools</strong> → <strong>Netzwerkrichtlinienserver</strong></p>
-<h3 id="schritt-3-nps-im-active-directory-registrieren">Schritt 3: NPS im Active Directory registrieren</h3>
-<p>Damit NPS die Benutzerkonten aus AD lesen kann:</p>
-<ol>
-<li>In der NPS-Konsole: Rechtsklick auf <strong>NPS (Lokal)</strong> → <strong>Server in Active Directory registrieren</strong></li>
-<li>Bestätige mit <strong>OK</strong></li>
-</ol>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c"># Oder per PowerShell:</span>
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="n">netsh</span> <span class="n">ras</span> <span class="n">add</span> <span class="n">registeredserver</span>
-</code></pre></div>
-<h3 id="schritt-4-radius-client-hinzufugen">Schritt 4: RADIUS-Client hinzufügen</h3>
-<p>Ein RADIUS-Client ist das Netzwerkgerät, das den NPS fragt (z.B. ein WLAN-AP):</p>
-<ol>
-<li>Erweitere <strong>RADIUS-Clients und -Server</strong> → Rechtsklick auf <strong>RADIUS-Clients</strong> → <strong>Neu</strong></li>
-<li>Fülle aus:</li>
-</ol>
-<table>
-<thead>
-<tr>
-<th>Feld</th>
-<th>Wert</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Anzeigename</td>
-<td><code>WLAN-AP-01</code></td>
-</tr>
-<tr>
-<td>Adresse (IP oder DNS)</td>
-<td><code>192.168.100.50</code></td>
-</tr>
-<tr>
-<td>Gemeinsamer geheimer Schlüssel</td>
-<td>Ein starkes Passwort (wird auch auf dem AP konfiguriert)</td>
-</tr>
-</tbody>
-</table>
-<h3 id="schritt-5-netzwerkrichtlinie-erstellen">Schritt 5: Netzwerkrichtlinie erstellen</h3>
-<ol>
-<li>Erweitere <strong>Richtlinien</strong> → Rechtsklick auf <strong>Netzwerkrichtlinien</strong> → <strong>Neu</strong></li>
-<li>Richtlinienname: <code>WLAN-Zugriff für IT-Abteilung</code></li>
-<li>Bedingung hinzufügen: <strong>Windows-Gruppen</strong> → Gruppe <code>IT-Abteilung</code> auswählen</li>
-<li>Zugriffsberechtigung: <strong>Zugriff gewähren</strong></li>
-<li>Authentifizierungsmethode: <strong>Microsoft: Geschütztes EAP (PEAP)</strong></li>
-</ol>
-<div class="admonition info">
-<p class="admonition-title">In dieser Trainingsumgebung</p>
-<p>Da wir keine physischen WLAN-APs haben, simulieren wir den RADIUS-Test mit dem Tool <code>NTRadPing</code> oder per PowerShell. Das Prinzip bleibt identisch.</p>
+<div class="admonition success">
+<p class="admonition-title">Geschafft!</p>
+<p>Nach <code>gpupdate /force</code> und Neuanmeldung zeigt der Desktop das neue Hintergrundbild – auf allen PCs in der verknüpften OU.</p>
 </div>
+<hr />
+<h2 id="gpo-vererbung-und-blockierung">GPO-Vererbung und Blockierung</h2>
+<h3 id="vererbung-deaktivieren">Vererbung deaktivieren</h3>
+<p>Manchmal soll eine OU <strong>keine</strong> GPOs von übergeordneten OUs erben:</p>
+<ol>
+<li>Rechtsklick auf die OU → <strong>Vererbung deaktivieren</strong></li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Sparsam einsetzen!</p>
+<p>Vererbungsblockierung macht die GPO-Struktur schnell unübersichtlich. Nutze sie nur, wenn es wirklich nötig ist.</p>
+</div>
+<h3 id="erzwingen-enforced">Erzwingen (Enforced)</h3>
+<p>Umgekehrt: Eine übergeordnete GPO soll <strong>trotz</strong> Blockierung wirken:</p>
+<ol>
+<li>Rechtsklick auf die GPO-Verknüpfung → <strong>Erzwungen</strong></li>
+</ol>
+<p>Erzwungene GPOs gewinnen immer – selbst gegen Vererbungsblockierung.</p>
 <hr />
 <h2 id="challenge">Challenge</h2>
 <div class="admonition question">
-<p class="admonition-title">Challenge: NPS-Richtlinie für VPN-Zugriff</p>
-<p>Erstelle eine NPS-Netzwerkrichtlinie, die nur Mitgliedern der AD-Gruppe <code>VPN-User</code> den Zugriff erlaubt. Die Richtlinie soll:</p>
+<p class="admonition-title">Challenge: Passwort-Richtlinie per GPO</p>
+<p>Erstelle eine GPO <code>Sicherheit – Passwort-Policy</code> und konfiguriere:</p>
 <ul>
-<li>Bedingung: Mitglied der Gruppe <code>VPN-User</code></li>
-<li>Authentifizierung: MS-CHAPv2</li>
-<li>Zugriff: Gewährt</li>
+<li>Minimale Passwortlänge: 12 Zeichen</li>
+<li>Passwort-Komplexität: Aktiviert</li>
+<li>Maximales Passwortalter: 90 Tage</li>
+<li>Kennwortchronik: 5 Kennwörter gespeichert</li>
 </ul>
+<p>Verknüpfe die GPO mit der Domäne (gilt dann für alle). Prüfe mit <code>gpresult /r</code>, ob die Richtlinie angewendet wird.</p>
 </div>
 <details class="success">
 <summary>Hinweis</summary>
-<ol>
-<li>Erstelle zuerst die Gruppe <code>VPN-User</code> im Active Directory</li>
-<li>Füge einen Testbenutzer hinzu</li>
-<li>Erstelle die Netzwerkrichtlinie im NPS mit der Bedingung "Windows-Gruppen"</li>
-<li>Wähle MS-CHAPv2 als Authentifizierungsmethode</li>
-</ol>
+<p>Pfad in der GPO: <strong>Computerkonfiguration</strong> → <strong>Richtlinien</strong> → <strong>Windows-Einstellungen</strong> → <strong>Sicherheitseinstellungen</strong> → <strong>Kontorichtlinien</strong> → <strong>Kennwortrichtlinien</strong></p>
+<p>Dort konfigurierst du die vier Einstellungen. Verknüpfe die GPO mit <code>training.local</code> (Domänenebene).</p>
+<div class="admonition info">
+<p class="admonition-title">Wichtig</p>
+<p>Kennwortrichtlinien wirken nur, wenn sie auf <strong>Domänenebene</strong> verknüpft sind (nicht auf OU-Ebene). Das ist eine Besonderheit von Kontorichtlinien.</p>
+</div>
 </details>
 <hr />
-<p>Weiter zu <a href="../modul-13-vpn/">Modul 13 – VPN</a> →</p>
+<p>Weiter zu <a href="../modul-22-desktop/">Modul 22 – Desktop-Verwaltung per GPO</a> →</p>
 
 
 
@@ -1807,7 +1961,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Fußzeile" >
         
           
-          <a href="../modul-11-iis/" class="md-footer__link md-footer__link--prev" aria-label="Zurück: Modul 11 – Webserver IIS">
+          <a href="../modul-20-aufr%C3%A4umen/" class="md-footer__link md-footer__link--prev" aria-label="Zurück: Modul 20 – Aufräumen">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -1817,20 +1971,20 @@
                 Zurück
               </span>
               <div class="md-ellipsis">
-                Modul 11 – Webserver IIS
+                Modul 20 – Aufräumen
               </div>
             </div>
           </a>
         
         
           
-          <a href="../modul-13-vpn/" class="md-footer__link md-footer__link--next" aria-label="Weiter: Modul 13 – VPN">
+          <a href="../modul-22-desktop/" class="md-footer__link md-footer__link--next" aria-label="Weiter: Modul 22 – Desktop-Verwaltung">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Weiter
               </span>
               <div class="md-ellipsis">
-                Modul 13 – VPN
+                Modul 22 – Desktop-Verwaltung
               </div>
             </div>
             <div class="md-footer__button md-icon">
