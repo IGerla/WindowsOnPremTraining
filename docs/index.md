@@ -69,6 +69,16 @@ Nach Abschluss von Lernpfad 1 hast du folgendes selbst aufgebaut:
 | 📊 | Speicherkontingente und Dateitypfilter | FSRM (Quotas + Screening) |
 | 🖨️ | Zentrale Druckerverwaltung mit automatischer Verteilung | Druckserver + GPO |
 
+## Was du in Lernpfad 4 baust
+
+| | Was | Womit |
+|---|---|---|
+| 📋 | GPOs erstellen, verknüpfen und die Verarbeitungsreihenfolge steuern | Gruppenrichtlinienverwaltung |
+| 🖥️ | Arbeitsplätze automatisch einrichten (Laufwerke, Drucker, Ordner) | GPO Preferences |
+| 📦 | Software automatisch auf Clients installieren | GPO-Softwareverteilung (MSI) |
+| 🔒 | Sicherheitsrichtlinien zentral erzwingen | Audit, Lockout, AppLocker |
+| 📄 | Hunderte Einstellungen über ADMX-Vorlagen konfigurieren | Central Store |
+
 ---
 
 ## Übersicht der Module
@@ -108,6 +118,17 @@ Nach Abschluss von Lernpfad 1 hast du folgendes selbst aufgebaut:
 | [Modul 18](modul-18-fsrm.md) | Quotas & FSRM: Speicherkontingente, Datei-Screening | 40 Min |
 | [Modul 19](modul-19-druckserver.md) | Druckserver: Drucker verwalten, GPO-Verteilung | 45 Min |
 | [Modul 20](modul-20-aufräumen.md) | Aufräumen: Freigaben dokumentieren, Snapshots | 15 Min |
+
+### Lernpfad 4 – Group Policy
+
+| Modul | Thema | Dauer |
+|-------|-------|-------|
+| [Modul 21](modul-21-gpo.md) | GPO-Grundlagen: Erstellen, Verknüpfen, LSDOU | 50 Min |
+| [Modul 22](modul-22-desktop.md) | Desktop-Verwaltung: Laufwerke, Drucker, Ordnerumleitung | 50 Min |
+| [Modul 23](modul-23-software.md) | Softwareverteilung: MSI-Pakete per GPO | 45 Min |
+| [Modul 24](modul-24-sicherheit.md) | Sicherheitsrichtlinien: Passwort, Audit, AppLocker | 50 Min |
+| [Modul 25](modul-25-admx.md) | Administrative Vorlagen: Central Store, ADMX | 40 Min |
+| [Modul 26](modul-26-aufräumen.md) | Aufräumen: GPO-Dokumentation, RSoP | 15 Min |
 
 ---
 

@@ -57,6 +57,17 @@ Azubis, Praktikanten und angehende Windows-Admins ohne Server-Erfahrung. Du arbe
 | 19 | Druckserver: Drucker zentral verwalten und per GPO verteilen |
 | 20 | Aufräumen: Freigaben dokumentieren, Snapshots |
 
+### Lernpfad 4 – Group Policy
+
+| Modul | Thema |
+|-------|-------|
+| 21 | GPO-Grundlagen: Erstellen, Verknüpfen, Vererben, LSDOU |
+| 22 | Desktop-Verwaltung: Laufwerke mappen, Drucker, Ordnerumleitung |
+| 23 | Softwareverteilung: MSI-Pakete per GPO installieren |
+| 24 | Sicherheitsrichtlinien: Passwort-Policy, Audit, AppLocker |
+| 25 | Administrative Vorlagen: Central Store, ADMX/ADML |
+| 26 | Aufräumen: GPO-Dokumentation, Resultant Set of Policy |
+
 ## Lokal starten
 
 ```bash

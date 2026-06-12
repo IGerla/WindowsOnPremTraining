@@ -64,12 +64,12 @@ Diese Roadmap zeigt den geplanten Aufbau aller Lernpfade. Module mit ✅ sind fe
 
 | Modul | Thema | Status |
 |-------|-------|--------|
-| 21 | GPO-Grundlagen: Erstellen, Verknüpfen, Vererben, Filtern | 📋 |
-| 22 | Desktop-Verwaltung: Startmenü, Wallpaper, Laufwerke mappen | 📋 |
-| 23 | Softwareverteilung: MSI-Pakete per GPO installieren | 📋 |
-| 24 | Sicherheitsrichtlinien: Passwort-Policy, Account Lockout, Audit | 📋 |
-| 25 | Administrative Vorlagen: ADMX/ADML, Central Store | 📋 |
-| 26 | Aufräumen: GPO-Dokumentation, Resultant Set of Policy | 📋 |
+| 21 | GPO-Grundlagen: Erstellen, Verknüpfen, Vererben, Filtern | � |
+| 22 | Desktop-Verwaltung: Startmenü, Wallpaper, Laufwerke mappen | 📝 |
+| 23 | Softwareverteilung: MSI-Pakete per GPO installieren | 📝 |
+| 24 | Sicherheitsrichtlinien: Passwort-Policy, Account Lockout, Audit | 📝 |
+| 25 | Administrative Vorlagen: ADMX/ADML, Central Store | 📝 |
+| 26 | Aufräumen: GPO-Dokumentation, Resultant Set of Policy | 📝 |
 
 **Ergebnis:** Zentrale Verwaltung aller Clients und Server über Group Policy Objects.
 
